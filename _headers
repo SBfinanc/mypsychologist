@@ -1,0 +1,27 @@
+# Netlify: заголовки кэширования и безопасности
+# Файл _headers Netlify читает автоматически
+
+# Картинки и иконки — кэш на год.
+# Имена файлов фиксированные, поэтому при замене фото
+# нужно менять имя файла, иначе браузер отдаст старое.
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/favicon.ico
+  Cache-Control: public, max-age=604800
+
+# HTML не кэшируем надолго — иначе правки не увидят те,
+# кто уже заходил на сайт
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Безопасность — применяется ко всему сайту
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
