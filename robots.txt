@@ -1,6 +1,6 @@
 
 Sitemap: https://mypsychologist.kz/sitemap.xml
-LLMs: https://mypsychologist.kz/llms.txt
+# LLMs: https://mypsychologist.kz/llms.txt (файл существует по этому адресу для LLM-краулеров)
 
 # ─────────────────────────────────────────────
 # Поисковые системы
