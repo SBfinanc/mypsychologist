@@ -1349,31 +1349,16 @@ img,video,iframe{max-width:100%}
   <div class="container">
     <div class="cf-wrap rv">
       <span class="stag">Если не готовы в WhatsApp</span>
-      <h2 class="stitle" style="font-size:clamp(1.8rem,3.5vw,2.8rem);margin-bottom:14px">Оставьте заявку — напишу вам сама</h2>
-      <p style="color:var(--muted);margin-bottom:32px;font-size:.95rem;line-height:1.8">Иногда проще оставить контакт, чем первым писать незнакомому человеку. Оставьте имя и способ связи — отвечаю в течение дня, без звонков, если не просите.</p>
-      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="cf-form">
-        <input type="hidden" name="form-name" value="contact">
-        <p class="cf-hp"><label>Не заполняйте это поле: <input name="bot-field"></label></p>
-        <div class="cf-field">
-          <label for="cf-name">Имя</label>
-          <input type="text" id="cf-name" name="Имя" required>
-        </div>
-        <div class="cf-field">
-          <label for="cf-contact">Телефон или email</label>
-          <input type="text" id="cf-contact" name="Контакт" required>
-        </div>
-        <div class="cf-field">
-          <label for="cf-message">Коротко о запросе (необязательно)</label>
-          <textarea id="cf-message" name="Сообщение"></textarea>
-        </div>
-        <div class="cf-field cf-consent">
-          <input type="checkbox" id="cf-consent" required>
-          <label for="cf-consent" style="margin:0">Я согласен(на) с <a href="/privacy.html" target="_blank">политикой конфиденциальности</a> и обработкой персональных данных</label>
-        </div>
-        <button type="submit">Отправить заявку</button>
-        <p class="cf-ok">Спасибо! Заявка отправлена, я отвечу в течение дня.</p>
-        <p class="cf-err">Не получилось отправить. Напишите, пожалуйста, в WhatsApp — кнопка ниже.</p>
-      </form>
+      <h2 class="stitle" style="font-size:clamp(1.8rem,3.5vw,2.8rem);margin-bottom:14px">Напишите — отвечаю сама</h2>
+      <p style="color:var(--muted);margin-bottom:32px;font-size:.95rem;line-height:1.8">Иногда проще написать напрямую, чем первым писать незнакомому человеку в мессенджер. Выберите удобный способ — отвечаю в течение дня.</p>
+      <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
+        <a href="https://wa.me/77057679777" target="_blank" class="btn-wa">
+          WhatsApp
+        </a>
+        <a href="mailto:petrenkonata2022@gmail.com" class="btn-out">
+          Email
+        </a>
+      </div>
     </div>
   </div>
 </section>
