@@ -137,6 +137,18 @@ img{max-width:100%;height:auto}
 .faq-q{font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:var(--cream);margin-bottom:10px;line-height:1.35}
 .faq-a{font-size:.9rem;color:rgba(244,237,224,.78);line-height:1.8;margin:0}
 @media(max-width:600px){.short-answer{padding:20px}}
+
+/* ═══ МОБИЛЬНЫЕ ТАП-ЗОНЫ (минимум 44px по высоте) ═══
+   Размер шрифта и вид не меняются — увеличивается только область нажатия. */
+@media(max-width:768px){
+  .scta{min-height:44px;align-items:center}
+  .nav-back{display:inline-flex;align-items:center;min-height:44px}
+  .hbg{min-width:44px;min-height:44px;align-items:center;justify-content:center;padding:10px}
+  .author-links a,.crumbs a,footer a,.o-card,.fcol ul a{display:inline-flex;align-items:center;min-height:44px}
+  .pname a{display:inline-flex;align-items:center;min-height:44px}
+  .cchip{min-height:44px;display:inline-flex;align-items:center}
+  .bread{min-height:44px;display:inline-flex;align-items:center}
+}
 </style>
   <meta property="og:image" content="https://mypsychologist.kz/images/og-image.jpg">
   <meta property="og:image:width" content="1200">

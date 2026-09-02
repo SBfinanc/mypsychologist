@@ -219,6 +219,18 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:32px 44p
 footer a{color:var(--gold)}
 @media(max-width:820px){.prices{grid-template-columns:1fr}.rel-grid{grid-template-columns:1fr}}
 @media(max-width:768px){.wrap{padding:40px 20px 70px}nav{padding:16px 20px}.author-box{flex-direction:column}.cta-box{padding:30px 22px}}
+
+/* ═══ МОБИЛЬНЫЕ ТАП-ЗОНЫ (минимум 44px по высоте) ═══
+   Размер шрифта и вид не меняются — увеличивается только область нажатия. */
+@media(max-width:768px){
+  .scta{min-height:44px;align-items:center}
+  .nav-back{display:inline-flex;align-items:center;min-height:44px}
+  .hbg{min-width:44px;min-height:44px;align-items:center;justify-content:center;padding:10px}
+  .author-links a,.crumbs a,footer a,.o-card,.fcol ul a{display:inline-flex;align-items:center;min-height:44px}
+  .pname a{display:inline-flex;align-items:center;min-height:44px}
+  .cchip{min-height:44px;display:inline-flex;align-items:center}
+  .bread{min-height:44px;display:inline-flex;align-items:center}
+}
 </style>
 </head>
 <body>
