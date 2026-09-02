@@ -125,6 +125,18 @@ img{max-width:100%;height:auto}
 .author-links a{color:var(--gold);border-bottom:1px solid transparent;transition:border-color .3s}
 .author-links a:hover{border-color:var(--gold)}
 @media(max-width:600px){.author-box{flex-direction:column;gap:16px;padding:22px}.author-box img{width:64px;height:64px}}
+
+/* ═══ БЛОК ПРЯМОГО ОТВЕТА (цитируемость в поиске и LLM) ═══ */
+.short-answer{background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:8px;padding:26px 28px;margin:0 0 40px}
+.short-answer .sa-label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:12px}
+.short-answer p{font-size:.96rem;line-height:1.85;color:rgba(244,237,224,.9);margin:0}
+.faq-block{margin-top:56px;padding-top:40px;border-top:1px solid var(--border)}
+.faq-block > h2{font-size:1.5rem;color:var(--cream);margin-bottom:26px}
+.faq-item{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:20px}
+.faq-item:last-child{border-bottom:none;margin-bottom:0}
+.faq-q{font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:var(--cream);margin-bottom:10px;line-height:1.35}
+.faq-a{font-size:.9rem;color:rgba(244,237,224,.78);line-height:1.8;margin:0}
+@media(max-width:600px){.short-answer{padding:20px}}
 </style>
   <meta property="og:image" content="https://mypsychologist.kz/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -151,6 +163,44 @@ img{max-width:100%;height:auto}
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/111997479" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Чем одиночество отличается от уединения?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Уединение выбирают добровольно, и оно восстанавливает силы. Одиночество не выбирают: это болезненное переживание отсутствия связи, которое возможно и в окружении людей."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Почему можно чувствовать себя одиноко даже в отношениях?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Потому что одиночество определяется не количеством людей рядом, а качеством контакта. Если в отношениях нельзя быть собой настоящим, ощущение изоляции сохраняется."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Опасно ли хроническое одиночество?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Да. Исследования связывают его с повышенным риском сердечно-сосудистых заболеваний и депрессии, сопоставимым по влиянию с курением."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Как выйти из хронического одиночества?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Не через увеличение количества общения, а через качество: постепенное проявление настоящего себя в отношениях вместо удобной версии, которую привыкли предъявлять."
+   }
+  }
+ ]
+}</script>
 </head>
 <body>
 <nav>
@@ -167,6 +217,12 @@ img{max-width:100%;height:auto}
     <span>🔄 обновлено 28 августа 2026</span>
     <span>⏱ 6 минут чтения</span>
   </div>
+
+  <div class="short-answer">
+    <span class="sa-label">Коротко</span>
+    <p>Одиночество и уединение — разные вещи. Уединение выбирают: оно восстанавливает, в нём человеку хорошо наедине с собой. Одиночество не выбирают: это болезненное переживание отсутствия связи, и оно возможно при любом количестве людей вокруг — в браке, в компании друзей, в большом городе. Дело не в числе контактов, а в качестве связи, прежде всего с самим собой. Хроническое одиночество опасно: исследования связывают его с повышенным риском для физического здоровья наравне с курением. Выход не в увеличении количества общения, а в способности проявлять себя настоящего — потому что чаще всего одиноко именно тем, кто в отношениях предъявляет удобную версию себя.</p>
+  </div>
+
   <div class="art-body" itemprop="articleBody">
 <p class="art-lead">«Мне одиноко» — эту фразу говорят очень разные люди. Человек в браке, у которого нет близости с партнёром. Человек в окружении друзей, но не чувствующий себя понятым. И человек, который живёт один и не страдает от этого. Одиночество — не про количество людей рядом. Это про качество связи — прежде всего, с самим собой. В этой статье — о том, чем одиночество отличается от уединения и когда стоит обратить на это серьёзное внимание.</p>
 <h2 class="sec">Одиночество vs уединение</h2>
@@ -195,6 +251,26 @@ img{max-width:100%;height:auto}
     </a>
   </div>
 
+
+  <section class="faq-block">
+    <h2>Частые вопросы</h2>
+    <div class="faq-item">
+      <h3 class="faq-q">Чем одиночество отличается от уединения?</h3>
+      <p class="faq-a">Уединение выбирают добровольно, и оно восстанавливает силы. Одиночество не выбирают: это болезненное переживание отсутствия связи, которое возможно и в окружении людей.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Почему можно чувствовать себя одиноко даже в отношениях?</h3>
+      <p class="faq-a">Потому что одиночество определяется не количеством людей рядом, а качеством контакта. Если в отношениях нельзя быть собой настоящим, ощущение изоляции сохраняется.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Опасно ли хроническое одиночество?</h3>
+      <p class="faq-a">Да. Исследования связывают его с повышенным риском сердечно-сосудистых заболеваний и депрессии, сопоставимым по влиянию с курением.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Как выйти из хронического одиночества?</h3>
+      <p class="faq-a">Не через увеличение количества общения, а через качество: постепенное проявление настоящего себя в отношениях вместо удобной версии, которую привыкли предъявлять.</p>
+    </div>
+  </section>
 
   <div class="author-box">
     <img src="/images/natalia-about.jpg" alt="Наталья Петренко, психолог, Алматы" width="84" height="84" loading="lazy">

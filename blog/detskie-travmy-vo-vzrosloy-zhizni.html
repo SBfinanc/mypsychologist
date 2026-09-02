@@ -125,6 +125,18 @@ img{max-width:100%;height:auto}
 .author-links a{color:var(--gold);border-bottom:1px solid transparent;transition:border-color .3s}
 .author-links a:hover{border-color:var(--gold)}
 @media(max-width:600px){.author-box{flex-direction:column;gap:16px;padding:22px}.author-box img{width:64px;height:64px}}
+
+/* ═══ БЛОК ПРЯМОГО ОТВЕТА (цитируемость в поиске и LLM) ═══ */
+.short-answer{background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:8px;padding:26px 28px;margin:0 0 40px}
+.short-answer .sa-label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:12px}
+.short-answer p{font-size:.96rem;line-height:1.85;color:rgba(244,237,224,.9);margin:0}
+.faq-block{margin-top:56px;padding-top:40px;border-top:1px solid var(--border)}
+.faq-block > h2{font-size:1.5rem;color:var(--cream);margin-bottom:26px}
+.faq-item{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:20px}
+.faq-item:last-child{border-bottom:none;margin-bottom:0}
+.faq-q{font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:var(--cream);margin-bottom:10px;line-height:1.35}
+.faq-a{font-size:.9rem;color:rgba(244,237,224,.78);line-height:1.8;margin:0}
+@media(max-width:600px){.short-answer{padding:20px}}
 </style>
   <meta property="og:image" content="https://mypsychologist.kz/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -151,6 +163,44 @@ img{max-width:100%;height:auto}
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/111997479" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Что считается детской психологической травмой?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Не только явное насилие. Сюда входят систематическая критика, эмоциональная недоступность родителей, непредсказуемость и небезопасность дома, а также ситуации, где ребёнку пришлось рано стать взрослым."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Как детские травмы проявляются во взрослой жизни?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Через трудности с границами, повторяющийся выбор недоступных партнёров, ощущение «со мной что-то не так», перфекционизм, страх конфликта и неумение просить о помощи."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Почему трудно признать, что детство было травматичным?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Потому что для ребёнка это была единственная известная норма, а признание разрушает привычный образ семьи. Часто мешает и чувство вины перед родителями."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Значит ли это, что надо обвинить родителей?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Нет. Задача не в обвинении, а в том, чтобы увидеть механизм и перестать воспроизводить его во взрослой жизни."
+   }
+  }
+ ]
+}</script>
 </head>
 <body>
 <nav>
@@ -167,6 +217,12 @@ img{max-width:100%;height:auto}
     <span>🔄 обновлено 28 августа 2026</span>
     <span>⏱ 10 минут чтения</span>
   </div>
+
+  <div class="short-answer">
+    <span class="sa-label">Коротко</span>
+    <p>Особенность детской травмы в том, что у ребёнка нет системы отсчёта: происходящее воспринимается как норма, потому что другой он не знает. Поэтому взрослые часто говорят «детство было нормальным», описывая при этом систематическую критику, эмоциональную недоступность родителей или роль взрослого, которую пришлось взять слишком рано. Во взрослой жизни это проявляется как трудности с границами, выбор недоступных партнёров, хроническое чувство «со мной что-то не так», перфекционизм и неумение просить о помощи. Признание травмы не означает обвинение родителей — это условие, при котором с ней можно что-то сделать.</p>
+  </div>
+
   <div class="art-body" itemprop="articleBody">
 <p class="art-lead">«Детство было нормальным», — говорит клиентка, описывая ситуацию, в которой мать систематически её критиковала, а отец был эмоционально недоступен. «Нормальным» — потому что это было её нормой. Другой она не знала. Вот в чём особенность детских травм: ребёнок не имеет системы отсчёта. Он не знает, что бывает иначе. И поэтому происходившее с ним воспринимается как «просто жизнь» — пока взрослый не начинает замечать, что что-то идёт не так.</p>
 <h2 class="sec">Что считается детской травмой</h2>
@@ -195,6 +251,26 @@ img{max-width:100%;height:auto}
     </a>
   </div>
 
+
+  <section class="faq-block">
+    <h2>Частые вопросы</h2>
+    <div class="faq-item">
+      <h3 class="faq-q">Что считается детской психологической травмой?</h3>
+      <p class="faq-a">Не только явное насилие. Сюда входят систематическая критика, эмоциональная недоступность родителей, непредсказуемость и небезопасность дома, а также ситуации, где ребёнку пришлось рано стать взрослым.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Как детские травмы проявляются во взрослой жизни?</h3>
+      <p class="faq-a">Через трудности с границами, повторяющийся выбор недоступных партнёров, ощущение «со мной что-то не так», перфекционизм, страх конфликта и неумение просить о помощи.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Почему трудно признать, что детство было травматичным?</h3>
+      <p class="faq-a">Потому что для ребёнка это была единственная известная норма, а признание разрушает привычный образ семьи. Часто мешает и чувство вины перед родителями.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Значит ли это, что надо обвинить родителей?</h3>
+      <p class="faq-a">Нет. Задача не в обвинении, а в том, чтобы увидеть механизм и перестать воспроизводить его во взрослой жизни.</p>
+    </div>
+  </section>
 
   <div class="author-box">
     <img src="/images/natalia-about.jpg" alt="Наталья Петренко, психолог, Алматы" width="84" height="84" loading="lazy">

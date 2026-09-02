@@ -125,6 +125,18 @@ img{max-width:100%;height:auto}
 .author-links a{color:var(--gold);border-bottom:1px solid transparent;transition:border-color .3s}
 .author-links a:hover{border-color:var(--gold)}
 @media(max-width:600px){.author-box{flex-direction:column;gap:16px;padding:22px}.author-box img{width:64px;height:64px}}
+
+/* ═══ БЛОК ПРЯМОГО ОТВЕТА (цитируемость в поиске и LLM) ═══ */
+.short-answer{background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:8px;padding:26px 28px;margin:0 0 40px}
+.short-answer .sa-label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:12px}
+.short-answer p{font-size:.96rem;line-height:1.85;color:rgba(244,237,224,.9);margin:0}
+.faq-block{margin-top:56px;padding-top:40px;border-top:1px solid var(--border)}
+.faq-block > h2{font-size:1.5rem;color:var(--cream);margin-bottom:26px}
+.faq-item{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:20px}
+.faq-item:last-child{border-bottom:none;margin-bottom:0}
+.faq-q{font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:var(--cream);margin-bottom:10px;line-height:1.35}
+.faq-a{font-size:.9rem;color:rgba(244,237,224,.78);line-height:1.8;margin:0}
+@media(max-width:600px){.short-answer{padding:20px}}
 </style>
   <meta property="og:image" content="https://mypsychologist.kz/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -151,6 +163,44 @@ img{max-width:100%;height:auto}
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/111997479" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Как низкая самооценка проявляется в отношениях?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Через постоянную потребность в подтверждениях любви, ревность без оснований, страх говорить о своих желаниях и готовность терпеть то, что не устраивает."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Почему неуверенность разрушает отношения?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Потому что человек заранее ждёт отвержения и ведёт себя так, что провоцирует его: контролирует, замалчивает потребности, копит обиду — и в итоге получает подтверждение своих страхов."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Откуда берётся низкая самооценка в паре?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Обычно из опыта условной любви в детстве, где принятие нужно было заслуживать поведением или достижениями. Эта схема переносится во взрослые отношения."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Может ли партнёр вылечить низкую самооценку?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Нет. Внешние подтверждения дают краткое облегчение, но не меняют внутреннюю установку — она восстанавливается через собственную работу."
+   }
+  }
+ ]
+}</script>
 </head>
 <body>
 <nav>
@@ -167,6 +217,12 @@ img{max-width:100%;height:auto}
     <span>🔄 обновлено 28 августа 2026</span>
     <span>⏱ 8 минут чтения</span>
   </div>
+
+  <div class="short-answer">
+    <span class="sa-label">Коротко</span>
+    <p>Низкая самооценка редко видна прямо — в паре она проявляется через поведение: постоянный поиск подтверждений любви, ревность без повода, невозможность говорить о своих потребностях из страха, что партнёр уйдёт, согласие на то, что не устраивает. Разрушительность в том, что человек с низкой самооценкой заранее убеждён, что его не выберут, и ведёт себя так, что это убеждение подтверждается: контроль отталкивает, молчание о потребностях копит обиду, а обесценивание собственных чувств делает близость невозможной. Корни обычно в опыте условной любви, где принятие нужно было заслуживать. Меняется это не через партнёра, а через восстановление собственной опоры.</p>
+  </div>
+
   <div class="art-body" itemprop="articleBody">
 <p class="art-lead">Пара приходит на семейную консультацию. Жалоба одна: «мы постоянно ссоримся». Но за конфликтами обычно скрывается нечто другое. Один из партнёров требует постоянного подтверждения любви. Другой ревнует без повода. Третий боится сказать о своих потребностях — вдруг партнёр уйдёт. В основе всего этого — низкая самооценка. Она невидима, но присутствует в каждом слове, каждом жесте и каждой ссоре. В этой статье — о том, как неуверенность в себе разрушает отношения и что с этим делать.</p>
 <h2 class="sec">Как низкая самооценка выглядит в паре</h2>
@@ -195,6 +251,26 @@ img{max-width:100%;height:auto}
     </a>
   </div>
 
+
+  <section class="faq-block">
+    <h2>Частые вопросы</h2>
+    <div class="faq-item">
+      <h3 class="faq-q">Как низкая самооценка проявляется в отношениях?</h3>
+      <p class="faq-a">Через постоянную потребность в подтверждениях любви, ревность без оснований, страх говорить о своих желаниях и готовность терпеть то, что не устраивает.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Почему неуверенность разрушает отношения?</h3>
+      <p class="faq-a">Потому что человек заранее ждёт отвержения и ведёт себя так, что провоцирует его: контролирует, замалчивает потребности, копит обиду — и в итоге получает подтверждение своих страхов.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Откуда берётся низкая самооценка в паре?</h3>
+      <p class="faq-a">Обычно из опыта условной любви в детстве, где принятие нужно было заслуживать поведением или достижениями. Эта схема переносится во взрослые отношения.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Может ли партнёр вылечить низкую самооценку?</h3>
+      <p class="faq-a">Нет. Внешние подтверждения дают краткое облегчение, но не меняют внутреннюю установку — она восстанавливается через собственную работу.</p>
+    </div>
+  </section>
 
   <div class="author-box">
     <img src="/images/natalia-about.jpg" alt="Наталья Петренко, психолог, Алматы" width="84" height="84" loading="lazy">

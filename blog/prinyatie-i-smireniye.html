@@ -125,6 +125,18 @@ img{max-width:100%;height:auto}
 .author-links a{color:var(--gold);border-bottom:1px solid transparent;transition:border-color .3s}
 .author-links a:hover{border-color:var(--gold)}
 @media(max-width:600px){.author-box{flex-direction:column;gap:16px;padding:22px}.author-box img{width:64px;height:64px}}
+
+/* ═══ БЛОК ПРЯМОГО ОТВЕТА (цитируемость в поиске и LLM) ═══ */
+.short-answer{background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:8px;padding:26px 28px;margin:0 0 40px}
+.short-answer .sa-label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:12px}
+.short-answer p{font-size:.96rem;line-height:1.85;color:rgba(244,237,224,.9);margin:0}
+.faq-block{margin-top:56px;padding-top:40px;border-top:1px solid var(--border)}
+.faq-block > h2{font-size:1.5rem;color:var(--cream);margin-bottom:26px}
+.faq-item{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:20px}
+.faq-item:last-child{border-bottom:none;margin-bottom:0}
+.faq-q{font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:var(--cream);margin-bottom:10px;line-height:1.35}
+.faq-a{font-size:.9rem;color:rgba(244,237,224,.78);line-height:1.8;margin:0}
+@media(max-width:600px){.short-answer{padding:20px}}
 </style>
   <meta property="og:image" content="https://mypsychologist.kz/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -151,6 +163,44 @@ img{max-width:100%;height:auto}
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/111997479" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Чем принятие отличается от смирения?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Смирение — это отказ от действия и потеря энергии. Принятие — признание факта таким, какой он есть, после которого силы освобождаются для действий в реальных обстоятельствах."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Значит ли принятие, что нужно перестать бороться?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Нет. Прекращается борьба с самим фактом, что нечто произошло, а не работа над изменением ситуации. Это разные вещи."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Почему принятие даёт силы?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Потому что отрицание реальности требует постоянных затрат энергии. Когда факт признан, эта энергия высвобождается для реальных действий."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Как принять то, что кажется непереносимым?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Постепенно и не в одиночку. Принятие тяжёлых событий — это процесс, который проходит через отрицание и гнев, и в нём обычно нужна поддержка."
+   }
+  }
+ ]
+}</script>
 </head>
 <body>
 <nav>
@@ -167,6 +217,12 @@ img{max-width:100%;height:auto}
     <span>🔄 обновлено 28 августа 2026</span>
     <span>⏱ 7 минут чтения</span>
   </div>
+
+  <div class="short-answer">
+    <span class="sa-label">Коротко</span>
+    <p>Смирение и принятие — противоположные состояния, хотя их часто путают. Смирение звучит как «ничего не изменить, я сдаюсь» — это пассивность, потеря энергии и отказ от действия. Принятие звучит иначе: «это происходит на самом деле» — признание реальности такой, какая она есть, без искажения и борьбы с фактом. Принципиальная разница в том, что следует дальше: смирение заканчивается остановкой, принятие освобождает силы для действия в реальных обстоятельствах. Пока человек тратит энергию на отрицание факта («этого не должно было случиться»), на изменение ситуации её не остаётся. Поэтому принятие — не слабость, а условие любых изменений.</p>
+  </div>
+
   <div class="art-body" itemprop="articleBody">
 <p class="art-lead">«Принятие» — одно из самых часто неправильно понимаемых слов в психологии. Люди нередко слышат «приими это» — и воспринимают как «смирись», «опусти руки», «прекрати бороться». Но принятие — это нечто принципиально иное. В этой статье — о разнице между принятием и смирением, и о том, почему именно принятие является мощнейшим ресурсом для изменений.</p>
 <h2 class="sec">Что такое смирение</h2>
@@ -195,6 +251,26 @@ img{max-width:100%;height:auto}
     </a>
   </div>
 
+
+  <section class="faq-block">
+    <h2>Частые вопросы</h2>
+    <div class="faq-item">
+      <h3 class="faq-q">Чем принятие отличается от смирения?</h3>
+      <p class="faq-a">Смирение — это отказ от действия и потеря энергии. Принятие — признание факта таким, какой он есть, после которого силы освобождаются для действий в реальных обстоятельствах.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Значит ли принятие, что нужно перестать бороться?</h3>
+      <p class="faq-a">Нет. Прекращается борьба с самим фактом, что нечто произошло, а не работа над изменением ситуации. Это разные вещи.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Почему принятие даёт силы?</h3>
+      <p class="faq-a">Потому что отрицание реальности требует постоянных затрат энергии. Когда факт признан, эта энергия высвобождается для реальных действий.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Как принять то, что кажется непереносимым?</h3>
+      <p class="faq-a">Постепенно и не в одиночку. Принятие тяжёлых событий — это процесс, который проходит через отрицание и гнев, и в нём обычно нужна поддержка.</p>
+    </div>
+  </section>
 
   <div class="author-box">
     <img src="/images/natalia-about.jpg" alt="Наталья Петренко, психолог, Алматы" width="84" height="84" loading="lazy">

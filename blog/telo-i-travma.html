@@ -125,6 +125,18 @@ img{max-width:100%;height:auto}
 .author-links a{color:var(--gold);border-bottom:1px solid transparent;transition:border-color .3s}
 .author-links a:hover{border-color:var(--gold)}
 @media(max-width:600px){.author-box{flex-direction:column;gap:16px;padding:22px}.author-box img{width:64px;height:64px}}
+
+/* ═══ БЛОК ПРЯМОГО ОТВЕТА (цитируемость в поиске и LLM) ═══ */
+.short-answer{background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:8px;padding:26px 28px;margin:0 0 40px}
+.short-answer .sa-label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:12px}
+.short-answer p{font-size:.96rem;line-height:1.85;color:rgba(244,237,224,.9);margin:0}
+.faq-block{margin-top:56px;padding-top:40px;border-top:1px solid var(--border)}
+.faq-block > h2{font-size:1.5rem;color:var(--cream);margin-bottom:26px}
+.faq-item{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:20px}
+.faq-item:last-child{border-bottom:none;margin-bottom:0}
+.faq-q{font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:var(--cream);margin-bottom:10px;line-height:1.35}
+.faq-a{font-size:.9rem;color:rgba(244,237,224,.78);line-height:1.8;margin:0}
+@media(max-width:600px){.short-answer{padding:20px}}
 </style>
   <meta property="og:image" content="https://mypsychologist.kz/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -151,6 +163,44 @@ img{max-width:100%;height:auto}
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/111997479" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Почему травма остаётся в теле?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Потому что реакция на угрозу запускается телесно раньше, чем осмысляется. Если защитное действие не удалось завершить, напряжение остаётся в теле и продолжает воспроизводиться в похожих ситуациях."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Как проявляются телесные последствия травмы?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Хроническое напряжение в плечах, шее и челюсти, сжатие в груди, задержка дыхания, замирание в ответ на резкий звук или повышенный голос, а также ощущение отстранённости от тела."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Что такое диссоциация?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Это защитный механизм, при котором человек как будто отделяется от происходящего и от собственного тела: смотрит на себя со стороны, не чувствует эмоций. Так психика справляется с непереносимым."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Помогает ли разговорная терапия при телесных симптомах?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Помогает, но часто её дополняют телесно-ориентированными подходами: отслеживанием ощущений, работой с дыханием и постепенным восстановлением чувства опоры и безопасности."
+   }
+  }
+ ]
+}</script>
 </head>
 <body>
 <nav>
@@ -167,6 +217,12 @@ img{max-width:100%;height:auto}
     <span>🔄 обновлено 28 августа 2026</span>
     <span>⏱ 8 минут чтения</span>
   </div>
+
+  <div class="short-answer">
+    <span class="sa-label">Коротко</span>
+    <p>Психологическая травма всегда оставляет след в теле, потому что в момент угрозы реакция запускается на телесном уровне — задолго до осмысления. Если действие не завершилось (не удалось убежать или защититься), напряжение остаётся законсервированным: как хроническая зажатость плеч и челюсти, сжатие в груди, перехватывающее дыхание, замирание при повышенном голосе. Отдельное проявление — диссоциация, ощущение отстранённости от собственного тела и происходящего. Поэтому в работе с травмой одного разговора часто недостаточно: нужны подходы, которые включают тело — отслеживание ощущений, работа с дыханием, постепенное возвращение чувства безопасности и опоры.</p>
+  </div>
+
   <div class="art-body" itemprop="articleBody">
 <p class="art-lead">«Мне сжимает грудь, когда я вспоминаю об этом». «У меня перехватывает дыхание в определённых ситуациях». «Когда партнёр повышает голос, я буквально замираю». Эти телесные реакции — не выдумка и не «чрезмерная чувствительность». Это язык тела, который хранит то, что психика не смогла переработать. В этой статье — о связи между психологической травмой и телом.</p>
 <h2 class="sec">Почему травма живёт в теле</h2>
@@ -195,6 +251,26 @@ img{max-width:100%;height:auto}
     </a>
   </div>
 
+
+  <section class="faq-block">
+    <h2>Частые вопросы</h2>
+    <div class="faq-item">
+      <h3 class="faq-q">Почему травма остаётся в теле?</h3>
+      <p class="faq-a">Потому что реакция на угрозу запускается телесно раньше, чем осмысляется. Если защитное действие не удалось завершить, напряжение остаётся в теле и продолжает воспроизводиться в похожих ситуациях.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Как проявляются телесные последствия травмы?</h3>
+      <p class="faq-a">Хроническое напряжение в плечах, шее и челюсти, сжатие в груди, задержка дыхания, замирание в ответ на резкий звук или повышенный голос, а также ощущение отстранённости от тела.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Что такое диссоциация?</h3>
+      <p class="faq-a">Это защитный механизм, при котором человек как будто отделяется от происходящего и от собственного тела: смотрит на себя со стороны, не чувствует эмоций. Так психика справляется с непереносимым.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Помогает ли разговорная терапия при телесных симптомах?</h3>
+      <p class="faq-a">Помогает, но часто её дополняют телесно-ориентированными подходами: отслеживанием ощущений, работой с дыханием и постепенным восстановлением чувства опоры и безопасности.</p>
+    </div>
+  </section>
 
   <div class="author-box">
     <img src="/images/natalia-about.jpg" alt="Наталья Петренко, психолог, Алматы" width="84" height="84" loading="lazy">

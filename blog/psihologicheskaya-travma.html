@@ -125,6 +125,18 @@ img{max-width:100%;height:auto}
 .author-links a{color:var(--gold);border-bottom:1px solid transparent;transition:border-color .3s}
 .author-links a:hover{border-color:var(--gold)}
 @media(max-width:600px){.author-box{flex-direction:column;gap:16px;padding:22px}.author-box img{width:64px;height:64px}}
+
+/* ═══ БЛОК ПРЯМОГО ОТВЕТА (цитируемость в поиске и LLM) ═══ */
+.short-answer{background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:8px;padding:26px 28px;margin:0 0 40px}
+.short-answer .sa-label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:12px}
+.short-answer p{font-size:.96rem;line-height:1.85;color:rgba(244,237,224,.9);margin:0}
+.faq-block{margin-top:56px;padding-top:40px;border-top:1px solid var(--border)}
+.faq-block > h2{font-size:1.5rem;color:var(--cream);margin-bottom:26px}
+.faq-item{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:20px}
+.faq-item:last-child{border-bottom:none;margin-bottom:0}
+.faq-q{font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:var(--cream);margin-bottom:10px;line-height:1.35}
+.faq-a{font-size:.9rem;color:rgba(244,237,224,.78);line-height:1.8;margin:0}
+@media(max-width:600px){.short-answer{padding:20px}}
 </style>
   <meta property="og:image" content="https://mypsychologist.kz/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -151,6 +163,44 @@ img{max-width:100%;height:auto}
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/111997479" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Что считается психологической травмой?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Не конкретный список событий, а ситуация, с переработкой которой психика не справилась. Значение имеет не объективная тяжесть, а субъективная непереносимость и то, была ли рядом поддержка."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Может ли быть травма от «несерьёзного» события?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Да. Одинаковое событие для одного человека проходит бесследно, а для другого становится травмой — это зависит от возраста, ресурсов и наличия поддержки в тот момент."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Почему время не лечит травму?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Потому что травматическое воспоминание хранится в необработанном виде и психика не воспринимает его как завершённое прошлое. Без переработки оно продолжает включаться в настоящем."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Как понять, что у меня есть непроработанная травма?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Типичные признаки: непропорционально сильные реакции на определённые ситуации, избегание тем и мест, телесные зажимы, повторяющиеся сценарии в отношениях и ощущение, что часть жизни «выключена»."
+   }
+  }
+ ]
+}</script>
 </head>
 <body>
 <nav>
@@ -167,6 +217,12 @@ img{max-width:100%;height:auto}
     <span>🔄 обновлено 28 августа 2026</span>
     <span>⏱ 10 минут чтения</span>
   </div>
+
+  <div class="short-answer">
+    <span class="sa-label">Коротко</span>
+    <p>Психологическая травма определяется не тяжестью события, а тем, справилась ли психика с его переработкой. Поэтому «незначительное» со стороны событие может стать травмой, а объективно тяжёлое — не стать, если рядом была поддержка. В момент угрозы мозг переключается в аварийный режим: миндалевидное тело запускает реакцию выживания, а участки, отвечающие за осмысление и хронологию, работают хуже. Из-за этого воспоминание остаётся необработанным — не «прошлым», а всё ещё актуальным. В жизни это проявляется как непонятные вспышки реакций, избегание, телесное напряжение и повторяющиеся сценарии. Время само по себе травму не лечит: без переработки она консервируется.</p>
+  </div>
+
   <div class="art-body" itemprop="articleBody">
 <p class="art-lead">«Ну, это было давно». «Другие пережили и ничего». «Не было же ничего страшного». Люди с психологической травмой часто убеждают себя, что их опыт «недостаточно серьёзный» для того, чтобы считаться травмой. Но психологическая травма — это не про объективную тяжесть события. Это про то, как психика смогла (или не смогла) его переработать. В этой статье — просто и честно о том, что такое травма и что она делает с нашей жизнью.</p>
 <h2 class="sec">Что такое психологическая травма</h2>
@@ -194,6 +250,26 @@ img{max-width:100%;height:auto}
     </a>
   </div>
 
+
+  <section class="faq-block">
+    <h2>Частые вопросы</h2>
+    <div class="faq-item">
+      <h3 class="faq-q">Что считается психологической травмой?</h3>
+      <p class="faq-a">Не конкретный список событий, а ситуация, с переработкой которой психика не справилась. Значение имеет не объективная тяжесть, а субъективная непереносимость и то, была ли рядом поддержка.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Может ли быть травма от «несерьёзного» события?</h3>
+      <p class="faq-a">Да. Одинаковое событие для одного человека проходит бесследно, а для другого становится травмой — это зависит от возраста, ресурсов и наличия поддержки в тот момент.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Почему время не лечит травму?</h3>
+      <p class="faq-a">Потому что травматическое воспоминание хранится в необработанном виде и психика не воспринимает его как завершённое прошлое. Без переработки оно продолжает включаться в настоящем.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Как понять, что у меня есть непроработанная травма?</h3>
+      <p class="faq-a">Типичные признаки: непропорционально сильные реакции на определённые ситуации, избегание тем и мест, телесные зажимы, повторяющиеся сценарии в отношениях и ощущение, что часть жизни «выключена».</p>
+    </div>
+  </section>
 
   <div class="author-box">
     <img src="/images/natalia-about.jpg" alt="Наталья Петренко, психолог, Алматы" width="84" height="84" loading="lazy">

@@ -125,6 +125,18 @@ img{max-width:100%;height:auto}
 .author-links a{color:var(--gold);border-bottom:1px solid transparent;transition:border-color .3s}
 .author-links a:hover{border-color:var(--gold)}
 @media(max-width:600px){.author-box{flex-direction:column;gap:16px;padding:22px}.author-box img{width:64px;height:64px}}
+
+/* ═══ БЛОК ПРЯМОГО ОТВЕТА (цитируемость в поиске и LLM) ═══ */
+.short-answer{background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:8px;padding:26px 28px;margin:0 0 40px}
+.short-answer .sa-label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:12px}
+.short-answer p{font-size:.96rem;line-height:1.85;color:rgba(244,237,224,.9);margin:0}
+.faq-block{margin-top:56px;padding-top:40px;border-top:1px solid var(--border)}
+.faq-block > h2{font-size:1.5rem;color:var(--cream);margin-bottom:26px}
+.faq-item{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:20px}
+.faq-item:last-child{border-bottom:none;margin-bottom:0}
+.faq-q{font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:var(--cream);margin-bottom:10px;line-height:1.35}
+.faq-a{font-size:.9rem;color:rgba(244,237,224,.78);line-height:1.8;margin:0}
+@media(max-width:600px){.short-answer{padding:20px}}
 </style>
   <meta property="og:image" content="https://mypsychologist.kz/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -151,6 +163,44 @@ img{max-width:100%;height:auto}
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/111997479" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Почему разговоры о чувствах заканчиваются ссорой?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Обычно из-за формы: «ты-высказывания» воспринимаются как обвинение и включают защитную реакцию. Партнёр начинает оправдываться, а не слышать."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Как правильно говорить о своих чувствах?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "По структуре: конкретный факт без оценки, затем своё чувство, затем потребность и конкретная просьба. Такая форма не требует от собеседника защищаться."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Почему сложно называть свои чувства?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Потому что этому обычно не учат. Если в семье эмоции не назывались или обесценивались, взрослый человек различает их с трудом и заменяет описанием мыслей."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Что делать, если партнёр не слышит?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Если при корректной форме любой разговор превращается в обвинение в ваш адрес, дело не в формулировках, а в самих отношениях — это повод обратиться к специалисту."
+   }
+  }
+ ]
+}</script>
 </head>
 <body>
 <nav>
@@ -167,6 +217,12 @@ img{max-width:100%;height:auto}
     <span>🔄 обновлено 28 августа 2026</span>
     <span>⏱ 7 минут чтения</span>
   </div>
+
+  <div class="short-answer">
+    <span class="sa-label">Коротко</span>
+    <p>Разговор о чувствах чаще всего срывается из-за формы, а не из-за нежелания партнёра слышать. «Ты-высказывания» вроде «ты меня не слушаешь» звучат как обвинение и включают защиту — собеседник начинает оправдываться вместо того, чтобы понимать. Работает другая структура: конкретный факт без оценки, затем своё чувство, затем потребность и просьба. Например: «когда ты смотришь в телефон во время разговора, я чувствую себя ненужной; мне важно твоё внимание, можешь отложить его на десять минут». Сложность в том, что многим трудно назвать собственное чувство — этому не учили. Если же любой разговор оборачивается обвинением в ваш адрес, проблема не в формулировках.</p>
+  </div>
+
   <div class="art-body" itemprop="articleBody">
 <p class="art-lead">«Я говорю ему/ей о своих чувствах, а он/она защищается или уходит в себя». «Я объясняю, но меня не понимают». «После разговора становится только хуже» — это очень распространённые жалобы. И чаще всего проблема не в том, что партнёр не хочет слышать. Проблема в том, как мы говорим. В этой статье — о том, почему одни способы говорить о чувствах вызывают защиту, а другие — открытость.</p>
 <h2 class="sec">Почему «ты-высказывания» не работают</h2>
@@ -195,6 +251,26 @@ img{max-width:100%;height:auto}
     </a>
   </div>
 
+
+  <section class="faq-block">
+    <h2>Частые вопросы</h2>
+    <div class="faq-item">
+      <h3 class="faq-q">Почему разговоры о чувствах заканчиваются ссорой?</h3>
+      <p class="faq-a">Обычно из-за формы: «ты-высказывания» воспринимаются как обвинение и включают защитную реакцию. Партнёр начинает оправдываться, а не слышать.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Как правильно говорить о своих чувствах?</h3>
+      <p class="faq-a">По структуре: конкретный факт без оценки, затем своё чувство, затем потребность и конкретная просьба. Такая форма не требует от собеседника защищаться.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Почему сложно называть свои чувства?</h3>
+      <p class="faq-a">Потому что этому обычно не учат. Если в семье эмоции не назывались или обесценивались, взрослый человек различает их с трудом и заменяет описанием мыслей.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Что делать, если партнёр не слышит?</h3>
+      <p class="faq-a">Если при корректной форме любой разговор превращается в обвинение в ваш адрес, дело не в формулировках, а в самих отношениях — это повод обратиться к специалисту.</p>
+    </div>
+  </section>
 
   <div class="author-box">
     <img src="/images/natalia-about.jpg" alt="Наталья Петренко, психолог, Алматы" width="84" height="84" loading="lazy">

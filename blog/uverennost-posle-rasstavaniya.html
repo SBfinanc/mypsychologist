@@ -125,6 +125,18 @@ img{max-width:100%;height:auto}
 .author-links a{color:var(--gold);border-bottom:1px solid transparent;transition:border-color .3s}
 .author-links a:hover{border-color:var(--gold)}
 @media(max-width:600px){.author-box{flex-direction:column;gap:16px;padding:22px}.author-box img{width:64px;height:64px}}
+
+/* ═══ БЛОК ПРЯМОГО ОТВЕТА (цитируемость в поиске и LLM) ═══ */
+.short-answer{background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:8px;padding:26px 28px;margin:0 0 40px}
+.short-answer .sa-label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:12px}
+.short-answer p{font-size:.96rem;line-height:1.85;color:rgba(244,237,224,.9);margin:0}
+.faq-block{margin-top:56px;padding-top:40px;border-top:1px solid var(--border)}
+.faq-block > h2{font-size:1.5rem;color:var(--cream);margin-bottom:26px}
+.faq-item{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:20px}
+.faq-item:last-child{border-bottom:none;margin-bottom:0}
+.faq-q{font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:var(--cream);margin-bottom:10px;line-height:1.35}
+.faq-a{font-size:.9rem;color:rgba(244,237,224,.78);line-height:1.8;margin:0}
+@media(max-width:600px){.short-answer{padding:20px}}
 </style>
   <meta property="og:image" content="https://mypsychologist.kz/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -151,6 +163,44 @@ img{max-width:100%;height:auto}
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/111997479" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Почему после расставания падает самооценка?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Потому что теряется не только партнёр, но и часть идентичности, выстроенная вокруг отношений. Психика ищет объяснение и находит самое доступное — «дело во мне»."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Сколько длится восстановление после расставания?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Индивидуально, но острая фаза обычно занимает от нескольких недель до нескольких месяцев. Процесс нелинейный: улучшения чередуются с откатами, и это нормально."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Что не помогает после расставания?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Быстрая замена партнёра, попытки доказать бывшему свою ценность и полное избегание чувств. Всё три откладывают проживание, а не сокращают его."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Что реально помогает вернуть уверенность?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Возвращение к тому, что было вашим до отношений: занятия, дружеские связи, режим, физическая активность. И возможность проговорить произошедшее — с близкими или с психологом."
+   }
+  }
+ ]
+}</script>
 </head>
 <body>
 <nav>
@@ -167,6 +217,12 @@ img{max-width:100%;height:auto}
     <span>🔄 обновлено 28 августа 2026</span>
     <span>⏱ 7 минут чтения</span>
   </div>
+
+  <div class="short-answer">
+    <span class="sa-label">Коротко</span>
+    <p>После расставания страдает не только привязанность, но и идентичность: часть себя была определена через отношения, и с их окончанием возникает вопрос «кто я теперь». Отсюда мысли «со мной что-то не так» и «меня больше не полюбят» — это симптомы боли, а не факты. Процесс обычно проходит три стадии: шок и отрицание, острая фаза с обесцениванием себя и попытками объяснить произошедшее своей неполноценностью, и постепенное восстановление. Не работают попытки быстро заменить человека, доказать бывшему свою ценность и полное избегание чувств. Работает возвращение к своим опорам: занятия и связи, существовавшие до отношений, режим, тело и разговор о произошедшем.</p>
+  </div>
+
   <div class="art-body" itemprop="articleBody">
 <p class="art-lead">Расставание — это не просто потеря человека. Это потеря части себя. После разрыва многие люди замечают, что смотрят на своё отражение иначе: появляются мысли «что со мной не так», «я недостаточно хорош(а)», «больше никто меня не полюбит». Эти мысли кажутся правдой, но они таковой не являются. Они — симптом боли, а не диагноз вашей личности. В этой статье мы разберём, почему расставание так сильно бьёт по самооценке, через какие этапы вы проходите и что на самом деле помогает вернуть себе устойчивость.</p>
 <h2 class="sec">Почему расставание разрушает самооценку</h2>
@@ -198,6 +254,26 @@ img{max-width:100%;height:auto}
     </a>
   </div>
 
+
+  <section class="faq-block">
+    <h2>Частые вопросы</h2>
+    <div class="faq-item">
+      <h3 class="faq-q">Почему после расставания падает самооценка?</h3>
+      <p class="faq-a">Потому что теряется не только партнёр, но и часть идентичности, выстроенная вокруг отношений. Психика ищет объяснение и находит самое доступное — «дело во мне».</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Сколько длится восстановление после расставания?</h3>
+      <p class="faq-a">Индивидуально, но острая фаза обычно занимает от нескольких недель до нескольких месяцев. Процесс нелинейный: улучшения чередуются с откатами, и это нормально.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Что не помогает после расставания?</h3>
+      <p class="faq-a">Быстрая замена партнёра, попытки доказать бывшему свою ценность и полное избегание чувств. Всё три откладывают проживание, а не сокращают его.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Что реально помогает вернуть уверенность?</h3>
+      <p class="faq-a">Возвращение к тому, что было вашим до отношений: занятия, дружеские связи, режим, физическая активность. И возможность проговорить произошедшее — с близкими или с психологом.</p>
+    </div>
+  </section>
 
   <div class="author-box">
     <img src="/images/natalia-about.jpg" alt="Наталья Петренко, психолог, Алматы" width="84" height="84" loading="lazy">

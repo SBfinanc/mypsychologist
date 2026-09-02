@@ -125,6 +125,18 @@ img{max-width:100%;height:auto}
 .author-links a{color:var(--gold);border-bottom:1px solid transparent;transition:border-color .3s}
 .author-links a:hover{border-color:var(--gold)}
 @media(max-width:600px){.author-box{flex-direction:column;gap:16px;padding:22px}.author-box img{width:64px;height:64px}}
+
+/* ═══ БЛОК ПРЯМОГО ОТВЕТА (цитируемость в поиске и LLM) ═══ */
+.short-answer{background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:8px;padding:26px 28px;margin:0 0 40px}
+.short-answer .sa-label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:12px}
+.short-answer p{font-size:.96rem;line-height:1.85;color:rgba(244,237,224,.9);margin:0}
+.faq-block{margin-top:56px;padding-top:40px;border-top:1px solid var(--border)}
+.faq-block > h2{font-size:1.5rem;color:var(--cream);margin-bottom:26px}
+.faq-item{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:20px}
+.faq-item:last-child{border-bottom:none;margin-bottom:0}
+.faq-q{font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:var(--cream);margin-bottom:10px;line-height:1.35}
+.faq-a{font-size:.9rem;color:rgba(244,237,224,.78);line-height:1.8;margin:0}
+@media(max-width:600px){.short-answer{padding:20px}}
 </style>
   <meta property="og:image" content="https://mypsychologist.kz/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -151,6 +163,44 @@ img{max-width:100%;height:auto}
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/111997479" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Можно ли восстановить отношения после измены?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Да, но только при выполнении условий: полная ответственность изменившего, честные ответы на вопросы, прекращение контакта с третьим лицом и готовность выдерживать длительное восстановление."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Сколько времени занимает восстановление доверия?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Обычно от года до двух при активной работе обоих. Быстрые «мы всё обсудили и забыли» чаще означают вытеснение, а не восстановление."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Что значит простить измену?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Не забыть и не обесценить произошедшее, а принять решение не использовать это как постоянное оружие в отношениях. Прощение — процесс, а не единичный акт."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Когда после измены лучше расстаться?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Когда изменивший не признаёт ответственность, продолжает контакт с третьим лицом, или когда пара годами живёт в режиме проверок и обвинений без движения вперёд."
+   }
+  }
+ ]
+}</script>
 </head>
 <body>
 <nav>
@@ -167,6 +217,12 @@ img{max-width:100%;height:auto}
     <span>🔄 обновлено 28 августа 2026</span>
     <span>⏱ 9 минут чтения</span>
   </div>
+
+  <div class="short-answer">
+    <span class="sa-label">Коротко</span>
+    <p>Отношения после измены не обречены автоматически, но и не восстанавливаются сами. Для предавшего человека это переживается близко к травме: рушится картина реальности, появляются навязчивые мысли, нарушается сон. Восстановление возможно при нескольких условиях: изменивший берёт полную ответственность без перекладывания вины, отвечает на вопросы честно и столько раз, сколько нужно, полностью прекращает контакт с третьим лицом и проявляет терпение к колебаниям партнёра. Прощение при этом не означает забывание — это решение не использовать случившееся как оружие. Если условия не выполняются или пара застревает в бесконечных проверках, честнее расстаться.</p>
+  </div>
+
   <div class="art-body" itemprop="articleBody">
 <p class="art-lead">Измена — это разрушительный опыт. Предательство человека, которому доверяли, оставляет след, который не проходит сам по себе. Но значит ли это, что отношения после измены всегда обречены? Нет. Некоторые пары проходят через измену и выходят с более честными и глубокими отношениями, чем до неё. Другие — понимают, что им не по пути. В этой статье — честно о том, что определяет этот исход.</p>
 <h2 class="sec">Что происходит с человеком, которого предали</h2>
@@ -195,6 +251,26 @@ img{max-width:100%;height:auto}
     </a>
   </div>
 
+
+  <section class="faq-block">
+    <h2>Частые вопросы</h2>
+    <div class="faq-item">
+      <h3 class="faq-q">Можно ли восстановить отношения после измены?</h3>
+      <p class="faq-a">Да, но только при выполнении условий: полная ответственность изменившего, честные ответы на вопросы, прекращение контакта с третьим лицом и готовность выдерживать длительное восстановление.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Сколько времени занимает восстановление доверия?</h3>
+      <p class="faq-a">Обычно от года до двух при активной работе обоих. Быстрые «мы всё обсудили и забыли» чаще означают вытеснение, а не восстановление.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Что значит простить измену?</h3>
+      <p class="faq-a">Не забыть и не обесценить произошедшее, а принять решение не использовать это как постоянное оружие в отношениях. Прощение — процесс, а не единичный акт.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Когда после измены лучше расстаться?</h3>
+      <p class="faq-a">Когда изменивший не признаёт ответственность, продолжает контакт с третьим лицом, или когда пара годами живёт в режиме проверок и обвинений без движения вперёд.</p>
+    </div>
+  </section>
 
   <div class="author-box">
     <img src="/images/natalia-about.jpg" alt="Наталья Петренко, психолог, Алматы" width="84" height="84" loading="lazy">

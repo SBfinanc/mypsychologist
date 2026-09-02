@@ -125,6 +125,18 @@ img{max-width:100%;height:auto}
 .author-links a{color:var(--gold);border-bottom:1px solid transparent;transition:border-color .3s}
 .author-links a:hover{border-color:var(--gold)}
 @media(max-width:600px){.author-box{flex-direction:column;gap:16px;padding:22px}.author-box img{width:64px;height:64px}}
+
+/* ═══ БЛОК ПРЯМОГО ОТВЕТА (цитируемость в поиске и LLM) ═══ */
+.short-answer{background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:8px;padding:26px 28px;margin:0 0 40px}
+.short-answer .sa-label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:12px}
+.short-answer p{font-size:.96rem;line-height:1.85;color:rgba(244,237,224,.9);margin:0}
+.faq-block{margin-top:56px;padding-top:40px;border-top:1px solid var(--border)}
+.faq-block > h2{font-size:1.5rem;color:var(--cream);margin-bottom:26px}
+.faq-item{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:20px}
+.faq-item:last-child{border-bottom:none;margin-bottom:0}
+.faq-q{font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:var(--cream);margin-bottom:10px;line-height:1.35}
+.faq-a{font-size:.9rem;color:rgba(244,237,224,.78);line-height:1.8;margin:0}
+@media(max-width:600px){.short-answer{padding:20px}}
 </style>
   <meta property="og:image" content="https://mypsychologist.kz/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -151,6 +163,44 @@ img{max-width:100%;height:auto}
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/111997479" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Что такое эмоциональный интеллект?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Способность распознавать собственные и чужие эмоции, понимать их причины и учитывать в поведении. Включает четыре компонента: осознание своих эмоций, управление ими, эмпатию и навыки отношений."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Можно ли развить эмоциональный интеллект во взрослом возрасте?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Да. В отличие от IQ он хорошо поддаётся развитию в любом возрасте, поскольку основан на навыках, а не на врождённых способностях."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "С чего начать развитие эмоционального интеллекта?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "С называния своих эмоций конкретными словами вместо общих «нормально» или «всё бесит». Пока чувства не различаются, управлять ими невозможно."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Почему умные люди часто плохо понимают других?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Потому что интеллект и эмоциональные навыки развиваются независимо. Привычка объяснять вместо того, чтобы чувствовать, часто мешает распознавать эмоции — свои и чужие."
+   }
+  }
+ ]
+}</script>
 </head>
 <body>
 <nav>
@@ -167,6 +217,12 @@ img{max-width:100%;height:auto}
     <span>🔄 обновлено 28 августа 2026</span>
     <span>⏱ 7 минут чтения</span>
   </div>
+
+  <div class="short-answer">
+    <span class="sa-label">Коротко</span>
+    <p>Эмоциональный интеллект — способность распознавать свои и чужие эмоции, понимать их причины и учитывать в поведении. Он складывается из четырёх составляющих: осознание собственных эмоций, управление ими, распознавание чужих состояний и умение выстраивать отношения. Его дефицит выглядит как «умный, но не понимает людей»: человек успешен в задачах и беспомощен в близости. Хорошая новость в том, что в отличие от IQ эмоциональный интеллект развивается в любом возрасте. Начинают с базового навыка — называть свою эмоцию точным словом вместо «нормально» и «всё бесит»: без различения чувств управлять ими невозможно.</p>
+  </div>
+
   <div class="art-body" itemprop="articleBody">
 <p class="art-lead">«Умный, но не понимает людей». «Успешный на работе, но в семье всё разрушилось». «Знает всё правильные ответы, но не чувствует ничего». Это описание человека с высоким IQ и низким эмоциональным интеллектом. Исследования показывают: карьерный успех на 80% определяется эмоциональным интеллектом и только на 20% — традиционным умом. Что же такое ЭИ и можно ли его развить?</p>
 <h2 class="sec">Что такое эмоциональный интеллект</h2>
@@ -195,6 +251,26 @@ img{max-width:100%;height:auto}
     </a>
   </div>
 
+
+  <section class="faq-block">
+    <h2>Частые вопросы</h2>
+    <div class="faq-item">
+      <h3 class="faq-q">Что такое эмоциональный интеллект?</h3>
+      <p class="faq-a">Способность распознавать собственные и чужие эмоции, понимать их причины и учитывать в поведении. Включает четыре компонента: осознание своих эмоций, управление ими, эмпатию и навыки отношений.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Можно ли развить эмоциональный интеллект во взрослом возрасте?</h3>
+      <p class="faq-a">Да. В отличие от IQ он хорошо поддаётся развитию в любом возрасте, поскольку основан на навыках, а не на врождённых способностях.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">С чего начать развитие эмоционального интеллекта?</h3>
+      <p class="faq-a">С называния своих эмоций конкретными словами вместо общих «нормально» или «всё бесит». Пока чувства не различаются, управлять ими невозможно.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Почему умные люди часто плохо понимают других?</h3>
+      <p class="faq-a">Потому что интеллект и эмоциональные навыки развиваются независимо. Привычка объяснять вместо того, чтобы чувствовать, часто мешает распознавать эмоции — свои и чужие.</p>
+    </div>
+  </section>
 
   <div class="author-box">
     <img src="/images/natalia-about.jpg" alt="Наталья Петренко, психолог, Алматы" width="84" height="84" loading="lazy">

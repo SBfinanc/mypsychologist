@@ -125,6 +125,18 @@ img{max-width:100%;height:auto}
 .author-links a{color:var(--gold);border-bottom:1px solid transparent;transition:border-color .3s}
 .author-links a:hover{border-color:var(--gold)}
 @media(max-width:600px){.author-box{flex-direction:column;gap:16px;padding:22px}.author-box img{width:64px;height:64px}}
+
+/* ═══ БЛОК ПРЯМОГО ОТВЕТА (цитируемость в поиске и LLM) ═══ */
+.short-answer{background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:8px;padding:26px 28px;margin:0 0 40px}
+.short-answer .sa-label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:12px}
+.short-answer p{font-size:.96rem;line-height:1.85;color:rgba(244,237,224,.9);margin:0}
+.faq-block{margin-top:56px;padding-top:40px;border-top:1px solid var(--border)}
+.faq-block > h2{font-size:1.5rem;color:var(--cream);margin-bottom:26px}
+.faq-item{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:20px}
+.faq-item:last-child{border-bottom:none;margin-bottom:0}
+.faq-q{font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:var(--cream);margin-bottom:10px;line-height:1.35}
+.faq-a{font-size:.9rem;color:rgba(244,237,224,.78);line-height:1.8;margin:0}
+@media(max-width:600px){.short-answer{padding:20px}}
 </style>
   <meta property="og:image" content="https://mypsychologist.kz/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -151,6 +163,44 @@ img{max-width:100%;height:auto}
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/111997479" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Почему мы сравниваем себя с другими?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Потому что у психики нет внутренней шкалы для оценки себя, и она использует окружающих как систему координат. Это автоматический процесс, который нельзя просто отключить."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Почему соцсети усиливают сравнение?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Потому что в них мы видим чужие отобранные достижения и сопоставляем их со своей повседневностью целиком — сравнение изначально нечестное."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Что стоит за болезненным сравнением?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Чаще всего не зависть, а страх: что вы живёте неправильно, отстаёте или недостаточно хороши. Работать нужно именно с этим страхом."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Как перестать сравнивать себя с другими?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Полностью перестать невозможно. Работает другое: заметить момент сравнения, назвать стоящий за ним страх и вернуться к своим критериям — сравнивать себя с собой прежним."
+   }
+  }
+ ]
+}</script>
 </head>
 <body>
 <nav>
@@ -167,6 +217,12 @@ img{max-width:100%;height:auto}
     <span>🔄 обновлено 28 августа 2026</span>
     <span>⏱ 6 минут чтения</span>
   </div>
+
+  <div class="short-answer">
+    <span class="sa-label">Коротко</span>
+    <p>Сравнение себя с другими — автоматический механизм: у человека нет объективной шкалы для оценки себя, поэтому психика использует окружающих как точку отсчёта. Соцсети ломают этот механизм, потому что подставляют в сравнение отредактированные вершины чужих жизней и наши будни. За болезненностью сравнения обычно стоит не зависть, а страх: что я живу неправильно, отстаю, недостаточен. Выход не в том, чтобы перестать сравнивать — это невозможно, — а в том, чтобы заметить момент сравнения, назвать стоящий за ним страх и вернуться к собственным критериям: сравнивать себя сегодняшнего с собой прошлым, а не с чужой витриной.</p>
+  </div>
+
   <div class="art-body" itemprop="articleBody">
 <p class="art-lead">Вы листаете ленту и видите: коллега открыл бизнес, подруга уехала жить в Европу, бывший одноклассник купил дом. И вместо нейтральной реакции — тихая боль: «а я?». Сравнение с другими — один из самых изматывающих психологических процессов. Он происходит автоматически, мы его не выбираем. Но мы можем научиться с ним работать. В этой статье — почему мы сравниваем себя, что за этим стоит и как постепенно выйти из этой ловушки.</p>
 <h2 class="sec">Почему мы вообще сравниваем себя с другими</h2>
@@ -196,6 +252,26 @@ img{max-width:100%;height:auto}
     </a>
   </div>
 
+
+  <section class="faq-block">
+    <h2>Частые вопросы</h2>
+    <div class="faq-item">
+      <h3 class="faq-q">Почему мы сравниваем себя с другими?</h3>
+      <p class="faq-a">Потому что у психики нет внутренней шкалы для оценки себя, и она использует окружающих как систему координат. Это автоматический процесс, который нельзя просто отключить.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Почему соцсети усиливают сравнение?</h3>
+      <p class="faq-a">Потому что в них мы видим чужие отобранные достижения и сопоставляем их со своей повседневностью целиком — сравнение изначально нечестное.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Что стоит за болезненным сравнением?</h3>
+      <p class="faq-a">Чаще всего не зависть, а страх: что вы живёте неправильно, отстаёте или недостаточно хороши. Работать нужно именно с этим страхом.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Как перестать сравнивать себя с другими?</h3>
+      <p class="faq-a">Полностью перестать невозможно. Работает другое: заметить момент сравнения, назвать стоящий за ним страх и вернуться к своим критериям — сравнивать себя с собой прежним.</p>
+    </div>
+  </section>
 
   <div class="author-box">
     <img src="/images/natalia-about.jpg" alt="Наталья Петренко, психолог, Алматы" width="84" height="84" loading="lazy">

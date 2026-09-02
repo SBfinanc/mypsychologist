@@ -125,6 +125,18 @@ img{max-width:100%;height:auto}
 .author-links a{color:var(--gold);border-bottom:1px solid transparent;transition:border-color .3s}
 .author-links a:hover{border-color:var(--gold)}
 @media(max-width:600px){.author-box{flex-direction:column;gap:16px;padding:22px}.author-box img{width:64px;height:64px}}
+
+/* ═══ БЛОК ПРЯМОГО ОТВЕТА (цитируемость в поиске и LLM) ═══ */
+.short-answer{background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:8px;padding:26px 28px;margin:0 0 40px}
+.short-answer .sa-label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:12px}
+.short-answer p{font-size:.96rem;line-height:1.85;color:rgba(244,237,224,.9);margin:0}
+.faq-block{margin-top:56px;padding-top:40px;border-top:1px solid var(--border)}
+.faq-block > h2{font-size:1.5rem;color:var(--cream);margin-bottom:26px}
+.faq-item{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:20px}
+.faq-item:last-child{border-bottom:none;margin-bottom:0}
+.faq-q{font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:var(--cream);margin-bottom:10px;line-height:1.35}
+.faq-a{font-size:.9rem;color:rgba(244,237,224,.78);line-height:1.8;margin:0}
+@media(max-width:600px){.short-answer{padding:20px}}
 </style>
   <meta property="og:image" content="https://mypsychologist.kz/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -151,6 +163,44 @@ img{max-width:100%;height:auto}
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/111997479" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Правда ли, что уверенные люди не боятся?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Нет. Страх испытывают все. Разница в том, что уверенный человек действует несмотря на страх, а не ждёт, пока страх исчезнет."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Приходит ли уверенность после успеха?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Наоборот. Уверенность строится в обратном порядке: сначала действие при неопределённости, затем опыт «я справился», и только потом растёт уверенность."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Должна ли уверенность быть постоянной?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Нет. Она естественно колеблется в зависимости от сферы жизни, усталости и обстоятельств. Ожидание ровного состояния само по себе создаёт ощущение неудачи."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Как развить уверенность в себе?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Через накопление конкретного опыта: браться за посильно сложное, выдерживать результат и замечать, что вы справились. Мотивационные техники без реального действия не работают."
+   }
+  }
+ ]
+}</script>
 </head>
 <body>
 <nav>
@@ -167,6 +217,12 @@ img{max-width:100%;height:auto}
     <span>🔄 обновлено 28 августа 2026</span>
     <span>⏱ 7 минут чтения</span>
   </div>
+
+  <div class="short-answer">
+    <span class="sa-label">Коротко</span>
+    <p>Главные мифы об уверенности: уверенные не боятся, уверенность приходит после успеха, и она должна быть постоянной. Всё три ложны. Уверенность — это не отсутствие страха, а способность действовать при его наличии. Она не следует за успехом, а предшествует ему: сначала действие в условиях неопределённости, потом опыт, что вы справились. И она не бывает ровной — колеблется в зависимости от области и состояния. Строится уверенность не через мотивацию и не через ожидание правильного момента, а через накопление опыта переживания собственной компетентности: сделал сложное, выдержал последствия, убедился, что справляешься.</p>
+  </div>
+
   <div class="art-body" itemprop="articleBody">
 <p class="art-lead">«Уверенные люди не боятся», «уверенность — это когда ты знаешь, что прав», «уверенность приходит после успеха» — всё это мифы. Они не только неверны, но и активно мешают людям развивать настоящую уверенность. Пока вы ждёте «правильного» момента или «правильных» условий, уверенность не придёт. В этой статье — семь самых распространённых мифов и правда о том, что уверенность на самом деле собой представляет.</p>
 <h2 class="sec">Миф 1: Уверенные люди не испытывают страха</h2>
@@ -200,6 +256,26 @@ img{max-width:100%;height:auto}
     </a>
   </div>
 
+
+  <section class="faq-block">
+    <h2>Частые вопросы</h2>
+    <div class="faq-item">
+      <h3 class="faq-q">Правда ли, что уверенные люди не боятся?</h3>
+      <p class="faq-a">Нет. Страх испытывают все. Разница в том, что уверенный человек действует несмотря на страх, а не ждёт, пока страх исчезнет.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Приходит ли уверенность после успеха?</h3>
+      <p class="faq-a">Наоборот. Уверенность строится в обратном порядке: сначала действие при неопределённости, затем опыт «я справился», и только потом растёт уверенность.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Должна ли уверенность быть постоянной?</h3>
+      <p class="faq-a">Нет. Она естественно колеблется в зависимости от сферы жизни, усталости и обстоятельств. Ожидание ровного состояния само по себе создаёт ощущение неудачи.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Как развить уверенность в себе?</h3>
+      <p class="faq-a">Через накопление конкретного опыта: браться за посильно сложное, выдерживать результат и замечать, что вы справились. Мотивационные техники без реального действия не работают.</p>
+    </div>
+  </section>
 
   <div class="author-box">
     <img src="/images/natalia-about.jpg" alt="Наталья Петренко, психолог, Алматы" width="84" height="84" loading="lazy">

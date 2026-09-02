@@ -125,6 +125,18 @@ img{max-width:100%;height:auto}
 .author-links a{color:var(--gold);border-bottom:1px solid transparent;transition:border-color .3s}
 .author-links a:hover{border-color:var(--gold)}
 @media(max-width:600px){.author-box{flex-direction:column;gap:16px;padding:22px}.author-box img{width:64px;height:64px}}
+
+/* ═══ БЛОК ПРЯМОГО ОТВЕТА (цитируемость в поиске и LLM) ═══ */
+.short-answer{background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:8px;padding:26px 28px;margin:0 0 40px}
+.short-answer .sa-label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:12px}
+.short-answer p{font-size:.96rem;line-height:1.85;color:rgba(244,237,224,.9);margin:0}
+.faq-block{margin-top:56px;padding-top:40px;border-top:1px solid var(--border)}
+.faq-block > h2{font-size:1.5rem;color:var(--cream);margin-bottom:26px}
+.faq-item{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:20px}
+.faq-item:last-child{border-bottom:none;margin-bottom:0}
+.faq-q{font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:var(--cream);margin-bottom:10px;line-height:1.35}
+.faq-a{font-size:.9rem;color:rgba(244,237,224,.78);line-height:1.8;margin:0}
+@media(max-width:600px){.short-answer{padding:20px}}
 </style>
   <meta property="og:image" content="https://mypsychologist.kz/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -151,6 +163,36 @@ img{max-width:100%;height:auto}
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/111997479" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Что такое синдром самозванца?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Устойчивое ощущение собственной некомпетентности вопреки объективным достижениям, вместе со страхом, что окружающие вот-вот это заметят. Успехи при этом приписываются везению или внешним обстоятельствам."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Почему возникает синдром самозванца?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Чаще всего он вырастает из детского опыта, где принятие было связано с результатами: похвала за достижения, сравнение с другими, обесценивание сделанного. Во взрослом возрасте это превращается в требование постоянно доказывать своё право на место."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Как избавиться от синдрома самозванца?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Уговоры «поверить в себя» не работают, потому что проблема не в фактах, а в способе их интерпретации. В терапии разбирают, откуда взялась внутренняя планка, чей это голос и что произойдёт, если перестать ему подчиняться."
+   }
+  }
+ ]
+}</script>
 </head>
 <body>
 <nav>
@@ -167,6 +209,12 @@ img{max-width:100%;height:auto}
     <span>🔄 обновлено 28 августа 2026</span>
     <span>⏱ 7 минут чтения</span>
   </div>
+
+  <div class="short-answer">
+    <span class="sa-label">Коротко</span>
+    <p>Синдром самозванца — это устойчивое ощущение, что вы не заслужили своих достижений и рано или поздно вас разоблачат. Успех объясняется везением, помощью других или тем, что «задача была простая», а похвала вызывает не радость, а тревогу. Через это проходят около 70% людей, в том числе учёные, руководители и врачи. Корни обычно в детском опыте: любовь за достижения, сравнение с другими детьми, обесценивание результатов. Опасность в том, что человек либо загоняет себя в переработки, доказывая право на место, либо избегает возможностей, чтобы не разоблачили. Работает не «поверить в себя», а разбор механизма в терапии: откуда взялась планка и чьим голосом она говорит.</p>
+  </div>
+
   <div class="art-body" itemprop="articleBody">
 <p class="art-lead">Вас повысили — и первая мысль: «скоро поймут, что я не справляюсь». Вы получаете похвалу — и думаете: «просто повезло». Вы достигаете цели — и немедленно обесцениваете её. Если это про вас, у этого состояния есть название: синдром самозванца. По статистике, его переживают около 70% людей в какой-то момент жизни. Среди них — учёные, топ-менеджеры, художники и врачи. Знаменитый физик Альберт Эйнштейн незадолго до смерти признавался, что чувствует себя «невольным мошенником». В этой статье — откуда это берётся и что с этим делать.</p>
 <h2 class="sec">Что такое синдром самозванца на самом деле</h2>
@@ -195,6 +243,22 @@ img{max-width:100%;height:auto}
     </a>
   </div>
 
+
+  <section class="faq-block">
+    <h2>Частые вопросы</h2>
+    <div class="faq-item">
+      <h3 class="faq-q">Что такое синдром самозванца?</h3>
+      <p class="faq-a">Устойчивое ощущение собственной некомпетентности вопреки объективным достижениям, вместе со страхом, что окружающие вот-вот это заметят. Успехи при этом приписываются везению или внешним обстоятельствам.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Почему возникает синдром самозванца?</h3>
+      <p class="faq-a">Чаще всего он вырастает из детского опыта, где принятие было связано с результатами: похвала за достижения, сравнение с другими, обесценивание сделанного. Во взрослом возрасте это превращается в требование постоянно доказывать своё право на место.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Как избавиться от синдрома самозванца?</h3>
+      <p class="faq-a">Уговоры «поверить в себя» не работают, потому что проблема не в фактах, а в способе их интерпретации. В терапии разбирают, откуда взялась внутренняя планка, чей это голос и что произойдёт, если перестать ему подчиняться.</p>
+    </div>
+  </section>
 
   <div class="author-box">
     <img src="/images/natalia-about.jpg" alt="Наталья Петренко, психолог, Алматы" width="84" height="84" loading="lazy">

@@ -125,6 +125,18 @@ img{max-width:100%;height:auto}
 .author-links a{color:var(--gold);border-bottom:1px solid transparent;transition:border-color .3s}
 .author-links a:hover{border-color:var(--gold)}
 @media(max-width:600px){.author-box{flex-direction:column;gap:16px;padding:22px}.author-box img{width:64px;height:64px}}
+
+/* ═══ БЛОК ПРЯМОГО ОТВЕТА (цитируемость в поиске и LLM) ═══ */
+.short-answer{background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:8px;padding:26px 28px;margin:0 0 40px}
+.short-answer .sa-label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:12px}
+.short-answer p{font-size:.96rem;line-height:1.85;color:rgba(244,237,224,.9);margin:0}
+.faq-block{margin-top:56px;padding-top:40px;border-top:1px solid var(--border)}
+.faq-block > h2{font-size:1.5rem;color:var(--cream);margin-bottom:26px}
+.faq-item{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:20px}
+.faq-item:last-child{border-bottom:none;margin-bottom:0}
+.faq-q{font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:var(--cream);margin-bottom:10px;line-height:1.35}
+.faq-a{font-size:.9rem;color:rgba(244,237,224,.78);line-height:1.8;margin:0}
+@media(max-width:600px){.short-answer{padding:20px}}
 </style>
   <meta property="og:image" content="https://mypsychologist.kz/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -151,6 +163,44 @@ img{max-width:100%;height:auto}
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/111997479" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Почему не удаётся достичь поставленных целей?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Чаще всего из-за формулировки от страха, отсутствия связи с собственными ценностями, слишком крупного масштаба без первого шага и неучтённого внутреннего сопротивления."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Чем цель «от страха» отличается от цели «к желанию»?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Цель от страха звучит как избегание («чтобы не быть...»), даёт короткий импульс и быстро истощает. Цель к желанию описывает, к чему вы идёте, и поддерживает движение дольше."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Как правильно ставить цели?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Сформулировать в позитивных терминах, проверить связь с личными ценностями, разбить до конкретного первого шага и заранее разобраться, что может вам мешать."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Что делать, если саботирую собственные цели?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Считать сопротивление сигналом, а не слабостью: обычно часть личности что-то защищает — привычную безопасность или лояльность семье. Пока это не увидено, планирование не работает."
+   }
+  }
+ ]
+}</script>
 </head>
 <body>
 <nav>
@@ -167,6 +217,12 @@ img{max-width:100%;height:auto}
     <span>🔄 обновлено 28 августа 2026</span>
     <span>⏱ 7 минут чтения</span>
   </div>
+
+  <div class="short-answer">
+    <span class="sa-label">Коротко</span>
+    <p>Более 80% годовых целей не достигаются, и причина обычно не в силе воли, а в четырёх психологических ловушках. Первая — цели «от страха» («похудеть, чтобы не быть отвратительной») вместо целей «к желанию»: страх даёт краткий импульс и быстро истощает. Вторая — цели, не связанные с собственными ценностями, а взятые из чужих ожиданий: мотивация к ним не появляется. Третья — слишком крупные цели без первого конкретного шага, из-за чего мозг откладывает старт. Четвёртая — игнорирование внутренних барьеров: если часть вас сопротивляется цели, планирование не поможет, пока не понятно, что именно эта часть защищает.</p>
+  </div>
+
   <div class="art-body" itemprop="articleBody">
 <p class="art-lead">Январь. Список целей на год. Бег, диета, саморазвитие, отношения, деньги. К марту — половина забыта, к июню — всё. Звучит знакомо? По статистике, более 80% людей не достигают своих целей на год. Это не потому что они ленивые или слабовольные. Это потому что большинство людей ставят цели неправильно — с точки зрения психологии. В этой статье — о психологических ловушках постановки целей и о том, что работает.</p>
 <h2 class="sec">Ловушка 1: цели «от страха», а не «к желанию»</h2>
@@ -195,6 +251,26 @@ img{max-width:100%;height:auto}
     </a>
   </div>
 
+
+  <section class="faq-block">
+    <h2>Частые вопросы</h2>
+    <div class="faq-item">
+      <h3 class="faq-q">Почему не удаётся достичь поставленных целей?</h3>
+      <p class="faq-a">Чаще всего из-за формулировки от страха, отсутствия связи с собственными ценностями, слишком крупного масштаба без первого шага и неучтённого внутреннего сопротивления.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Чем цель «от страха» отличается от цели «к желанию»?</h3>
+      <p class="faq-a">Цель от страха звучит как избегание («чтобы не быть...»), даёт короткий импульс и быстро истощает. Цель к желанию описывает, к чему вы идёте, и поддерживает движение дольше.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Как правильно ставить цели?</h3>
+      <p class="faq-a">Сформулировать в позитивных терминах, проверить связь с личными ценностями, разбить до конкретного первого шага и заранее разобраться, что может вам мешать.</p>
+    </div>
+    <div class="faq-item">
+      <h3 class="faq-q">Что делать, если саботирую собственные цели?</h3>
+      <p class="faq-a">Считать сопротивление сигналом, а не слабостью: обычно часть личности что-то защищает — привычную безопасность или лояльность семье. Пока это не увидено, планирование не работает.</p>
+    </div>
+  </section>
 
   <div class="author-box">
     <img src="/images/natalia-about.jpg" alt="Наталья Петренко, психолог, Алматы" width="84" height="84" loading="lazy">
