@@ -11,6 +11,12 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://mypsychologist.kz/"/>
   </url>
   <url>
+    <loc>https://mypsychologist.kz/psiholog-almaty/</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
     <loc>https://mypsychologist.kz/blog/</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
