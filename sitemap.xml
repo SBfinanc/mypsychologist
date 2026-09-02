@@ -11,6 +11,24 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://mypsychologist.kz/"/>
   </url>
   <url>
+    <loc>https://mypsychologist.kz/konsultaciya-psihologa/</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mypsychologist.kz/kurs-terapii/</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mypsychologist.kz/gruppovaya-terapiya/</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://mypsychologist.kz/psiholog-almaty/</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>monthly</changefreq>
