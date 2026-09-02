@@ -25,7 +25,7 @@ Allow: /
 # ─────────────────────────────────────────────
 # LLM-краулеры
 #
-# В текущем файле были Claude-Web и anthropic-ai — оба устарели.
+# В текущем файле были Claude-Web и anthropic-ai - оба устарели.
 # Актуальный краулер Anthropic называется ClaudeBot.
 # Также добавлены Google-Extended (обучение Gemini),
 # OAI-SearchBot (поиск ChatGPT) и meta-externalagent.

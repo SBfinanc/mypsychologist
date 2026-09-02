@@ -48,7 +48,7 @@
     <priority>0.3</priority>
   </url>
 
-  <!-- Блог — статьи -->
+  <!-- Блог - статьи -->
   <url><loc>https://mypsychologist.kz/blog/uverennost-posle-rasstavaniya.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://mypsychologist.kz/blog/nizkaya-samoocenka-i-otnosheniya.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://mypsychologist.kz/blog/priznaki-nizkoy-samoocenki.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
