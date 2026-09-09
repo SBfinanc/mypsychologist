@@ -3,3 +3,6 @@
 # 301 передаёт накопленный вес страницы на новый адрес.
 /blog/sindrom-samozvants%D0%B0.html   /blog/sindrom-samozvantsa.html   301
 /blog/sindrom-samozvantsа.html        /blog/sindrom-samozvantsa.html   301
+
+# Статья снята: не соответствует доказательной базе. Вес передан на близкую тему.
+/blog/trevoga-ili-intuiciya.html   /blog/hronicheskaya-trevoga.html   301
