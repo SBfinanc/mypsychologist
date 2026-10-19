@@ -5,82 +5,82 @@
   <!-- Главная страница -->
   <url>
     <loc>https://mypsychologist.kz/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ru" href="https://mypsychologist.kz/"/>
   </url>
   <url>
     <loc>https://mypsychologist.kz/konsultaciya-psihologa/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://mypsychologist.kz/kurs-terapii/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://mypsychologist.kz/gruppovaya-terapiya/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://mypsychologist.kz/psiholog-almaty/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://mypsychologist.kz/blog/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://mypsychologist.kz/privacy.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <!-- Блог - статьи -->
-  <url><loc>https://mypsychologist.kz/blog/uverennost-posle-rasstavaniya.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/nizkaya-samoocenka-i-otnosheniya.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/priznaki-nizkoy-samoocenki.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/sindrom-samozvantsa.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/kak-perestat-sravnivat-sebya-s-drugimi.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/samokritika-ne-pomogaet.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/kak-prinyat-sebya.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/mify-ob-uverennosti.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/gotovnost-k-novym-otnosheniyam.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/toksichnye-otnosheniya-priznaki.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/pochemu-my-vybiraem-ne-tekh.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/revnost-i-kontrol.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/kak-govorit-o-chuvstvakh.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/sozavisimost-kak-vyyti.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/kak-vosstanovit-doverie-posle-izmeny.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/odinochestvo-i-uedinenie.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/psihologicheskaya-travma.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/detskie-travmy-vo-vzrosloy-zhizni.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/ptsr-simptomy.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/telo-i-travma.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/iscelenie-ot-travmy.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/hronicheskaya-trevoga.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/panicheskie-ataki.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/tehniki-zazemleniya.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/perfekcionizm-i-trevoga.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/psihologicheskie-zashchity.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/emocionalnyy-intellekt.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/kak-rabotaet-psihoterapiya.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/gruppovaya-vs-individualnaya-terapiya.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/psiholog-ili-psihiatr.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/kak-stavit-tseli.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/prinyatie-i-smireniye.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mypsychologist.kz/blog/emocionalnoe-vygoranie.html</loc><lastmod>2026-08-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/uverennost-posle-rasstavaniya.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/nizkaya-samoocenka-i-otnosheniya.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/priznaki-nizkoy-samoocenki.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/sindrom-samozvantsa.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/kak-perestat-sravnivat-sebya-s-drugimi.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/samokritika-ne-pomogaet.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/kak-prinyat-sebya.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/mify-ob-uverennosti.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/gotovnost-k-novym-otnosheniyam.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/toksichnye-otnosheniya-priznaki.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/pochemu-my-vybiraem-ne-tekh.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/revnost-i-kontrol.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/kak-govorit-o-chuvstvakh.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/sozavisimost-kak-vyyti.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/kak-vosstanovit-doverie-posle-izmeny.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/odinochestvo-i-uedinenie.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/psihologicheskaya-travma.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/detskie-travmy-vo-vzrosloy-zhizni.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/ptsr-simptomy.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/telo-i-travma.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/iscelenie-ot-travmy.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/hronicheskaya-trevoga.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/panicheskie-ataki.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/tehniki-zazemleniya.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/perfekcionizm-i-trevoga.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/psihologicheskie-zashchity.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/emocionalnyy-intellekt.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/kak-rabotaet-psihoterapiya.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/gruppovaya-vs-individualnaya-terapiya.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/psiholog-ili-psihiatr.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/kak-stavit-tseli.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/prinyatie-i-smireniye.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mypsychologist.kz/blog/emocionalnoe-vygoranie.html</loc><lastmod>2026-10-19</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
 
 </urlset>
