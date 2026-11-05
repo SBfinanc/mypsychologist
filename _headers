@@ -25,3 +25,7 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=()
   Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+# Новый дизайн главной: скрипты, стили, кадры фильма, фото. Имена фиксированные, поэтому неделя, а не год.
+/assets/*
+  Cache-Control: public, max-age=604800

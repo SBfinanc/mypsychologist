@@ -7,39 +7,9 @@
 <meta name="description" content="Политика конфиденциальности и обработки персональных данных сайта mypsychologist.kz психолога Натальи Петренко.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://mypsychologist.kz/privacy.html">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-:root{--bg:#080807;--bg2:#111009;--gold:#c9a96e;--cream:#f4ede0;--muted:#7a7168;--border:rgba(201,169,110,.16)}
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--cream);font-family:'Jost',sans-serif;font-weight:300;line-height:1.75}
-h1,h2{font-family:'Cormorant Garamond',serif;font-weight:400;line-height:1.2}
-a{color:var(--gold);text-decoration:underline}
-nav{background:rgba(8,8,7,.95);border-bottom:1px solid var(--border);padding:18px 44px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0}
-.logo{font-family:'Cormorant Garamond',serif;font-size:1.3rem;text-decoration:none}.logo em{color:var(--gold);font-style:normal}
-.nav-back{font-size:.78rem;color:var(--gold);letter-spacing:.08em;text-transform:uppercase;text-decoration:none}
-.wrap{max-width:760px;margin:0 auto;padding:60px 44px 100px}
-h1{font-size:clamp(1.9rem,3.6vw,2.6rem);margin-bottom:28px}
-h2{font-size:1.3rem;margin:36px 0 14px;color:var(--cream)}
-p,li{color:rgba(244,237,224,.85);font-size:.95rem;margin-bottom:14px}
-ul{padding-left:22px;margin-bottom:14px}
-.note{background:var(--bg2);border-left:2px solid var(--gold);border-radius:8px;padding:22px 24px;margin-top:44px;font-size:.85rem;color:var(--muted)}
-footer{background:var(--bg2);border-top:1px solid var(--border);padding:32px 44px;text-align:center;color:var(--muted);font-size:.78rem}
-@media(max-width:768px){.wrap{padding:40px 20px 80px}nav{padding:16px 20px}}
-
-/* ═══ МОБИЛЬНЫЕ ТАП-ЗОНЫ (минимум 44px по высоте) ═══
-   Размер шрифта и вид не меняются - увеличивается только область нажатия. */
-@media(max-width:768px){
-  .scta{min-height:44px;align-items:center}
-  .nav-back{display:inline-flex;align-items:center;min-height:44px}
-  .hbg{min-width:44px;min-height:44px;align-items:center;justify-content:center;padding:10px}
-  .author-links a,.crumbs a,footer a,.o-card,.fcol ul a{display:inline-flex;align-items:center;min-height:44px}
-  .pname a{display:inline-flex;align-items:center;min-height:44px}
-  .cchip{min-height:44px;display:inline-flex;align-items:center}
-  .bread{min-height:44px;display:inline-flex;align-items:center}
-  .logo{display:inline-block;padding-top:11px;padding-bottom:11px}
-}
-</style>
+<link rel="preload" href="/assets/fonts/Manrope-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/fonts.css">
+<link rel="stylesheet" href="/assets/pages.css">
 <!-- Yandex.Metrika counter (отложенная загрузка: по первому взаимодействию или через 5 с) -->
 <script type="text/javascript">
 (function(){
@@ -63,12 +33,28 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:32px 44p
 <!-- /Yandex.Metrika counter -->
 </head>
 <body>
-<nav>
-  <a href="/index.html" class="logo">Наталья <em>Петренко</em></a>
-  <a href="/index.html" class="nav-back">← На главную</a>
-</nav>
+<a class="skip" href="#main">Перейти к содержанию</a>
+<header class="top" id="top">
+  <a class="brand" href="/">Наталья Петренко <span>психолог</span></a>
+  <nav aria-label="Разделы">
+    <a href="/#o-natalye">Обо мне</a>
+    <a href="/#uslugi">Услуги</a>
+    <a href="/psiholog-almaty/">Психолог в Алматы</a>
+    <a href="/blog/">Блог</a>
+    <a href="/#faq">Часто задаваемые вопросы</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mpanel">Меню</button>
+    <a class="btn sm" href="https://wa.me/77057679777" target="_blank" rel="noopener">Записаться</a>
+  </nav>
+</header>
+<div class="mpanel" id="mpanel">
+  <a href="/#o-natalye">Обо мне</a>
+  <a href="/#uslugi">Услуги</a>
+  <a href="/psiholog-almaty/">Психолог в Алматы</a>
+  <a href="/blog/">Блог</a>
+  <a href="/#faq">Часто задаваемые вопросы</a>
+</div>
 
-<div class="wrap">
+<div class="wrap" id="main">
   <h1>Политика конфиденциальности</h1>
   <p>Действует для сайта mypsychologist.kz. Обновлено: 27 августа 2026.</p>
 
@@ -97,8 +83,43 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:32px 44p
   <div class="note">Этот текст - добросовестное описание того, как устроен сбор данных на сайте, а не юридическая консультация. Перед добавлением на сайт любой формы, собирающей контакты клиентов, рекомендуем показать эту страницу юристу, знакомому с законом РК «О персональных данных» - до тех пор форма заявки на сайте намеренно не используется.</div>
 </div>
 
-<footer>
-  <p>© 2026 Наталья Петренко · Психолог · <a href="https://wa.me/77057679777" style="color:var(--gold)">WhatsApp</a> · <a href="https://instagram.com/yandalina_psychologist" style="color:var(--gold)">Instagram</a></p>
+<footer class="foot g">
+  <div class="cols2">
+    <div><p class="name">Наталья<br>Петренко</p><p class="about">Психолог с 5-летним опытом. Помогаю восстановить уверенность, проработать травмы и выстроить здоровые отношения.</p></div>
+    <div>
+      <h3>Навигация</h3>
+      <ul>
+        <li><a href="/#o-natalye">Обо мне</a></li>
+        <li><a href="/#uslugi">Услуги</a></li>
+        <li><a href="/psiholog-almaty/">Психолог в Алматы</a></li>
+        <li><a href="/#dipl">Дипломы</a></li>
+        <li><a href="/blog/">Блог</a></li>
+        <li><a href="/#faq">Часто задаваемые вопросы</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Услуги</h3>
+      <ul>
+        <li><a href="/konsultaciya-psihologa/">Консультация</a></li>
+        <li><a href="/kurs-terapii/">Курс терапии</a></li>
+        <li><a href="/gruppovaya-terapiya/">Групповая терапия</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Контакты</h3>
+      <ul>
+        <li>Алматы, ул. Желтоксан, 169</li>
+        <li><a href="tel:+77057679777">+7&nbsp;705&nbsp;767&nbsp;9777</a></li>
+        <li>Пн-Пт 10:00-20:00, Сб 10:00-16:00</li>
+        <li><a href="https://maps.google.com/?cid=13550313598852056503" target="_blank" rel="noopener">Как добраться (Google Карты)</a></li>
+        <li><a href="https://wa.me/77057679777" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="mailto:petrenkonata2022@gmail.com">Email</a></li>
+        <li><a href="https://instagram.com/yandalina_psychologist" target="_blank" rel="noopener">Instagram (@yandalina_psychologist)</a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="copy">© 2026 Наталья Петренко. Все права защищены. <a href="/privacy.html">Политика конфиденциальности</a></p>
 </footer>
+<script src="/assets/page.js" defer></script>
 </body>
 </html>

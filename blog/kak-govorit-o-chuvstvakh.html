@@ -50,108 +50,11 @@
   "inLanguage": "ru",
   "keywords": "как говорить о чувствах в отношениях, ассертивное общение, как выразить эмоции партнёру, психолог коммуникация в паре"
 }</script>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preload" href="/assets/fonts/Manrope-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/fonts.css">
+<link rel="stylesheet" href="/assets/pages.css">
 
-<style>
-:root{--bg:#080807;--bg2:#111009;--bg3:#1a1812;--surface:#221f16;--gold:#c9a96e;--gold-l:#e8ca92;--gold-dim:rgba(201,169,110,.12);--cream:#f4ede0;--muted:#7a7168;--border:rgba(201,169,110,.16);--border-h:rgba(201,169,110,.36)}
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--cream);font-family:'Jost',sans-serif;font-weight:300;line-height:1.75;overflow-x:hidden}
-h1,h2,h3{font-family:'Cormorant Garamond',serif;font-weight:400;line-height:1.2}
-a{text-decoration:none;color:inherit}
-nav{background:rgba(8,8,7,.95);border-bottom:1px solid var(--border);padding:18px 44px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
-.logo{font-family:'Cormorant Garamond',serif;font-size:1.3rem}.logo em{color:var(--gold);font-style:normal}
-.nav-back{font-size:.78rem;color:var(--gold);letter-spacing:.08em;text-transform:uppercase;transition:opacity .3s}
-.nav-back:hover{opacity:.7}
-.article-wrap{max-width:780px;margin:0 auto;padding:60px 44px 100px}
-.art-cat{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:16px}
-h1.art-title{font-size:clamp(2rem,4vw,3.2rem);color:var(--cream);margin-bottom:20px;line-height:1.12}
-.art-meta{display:flex;gap:24px;color:var(--muted);font-size:.78rem;margin-bottom:48px;padding-bottom:32px;border-bottom:1px solid var(--border)}
-.art-lead{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-style:italic;color:var(--cream);line-height:1.7;margin-bottom:40px;padding-left:20px;border-left:2px solid var(--gold)}
-h2.sec{font-size:1.5rem;color:var(--cream);margin:44px 0 18px}
-.art-body p{color:rgba(244,237,224,.82);line-height:1.9;margin-bottom:18px;font-size:.97rem}
-.cta-box{background:var(--bg2);border:1px solid var(--border);padding:40px;margin-top:60px;text-align:center}
-.cta-box h3{font-size:1.7rem;margin-bottom:14px}
-.cta-box p{color:var(--muted);margin-bottom:28px;font-size:.92rem}
-.btn-wa{display:inline-flex;align-items:center;gap:10px;background:#25D366;color:#fff;padding:14px 32px;font-size:.82rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;transition:all .3s}
-.btn-wa:hover{background:#1fb855}
-.related{margin-top:60px;padding-top:40px;border-top:1px solid var(--border)}
-.related h3{font-size:1.1rem;color:var(--muted);letter-spacing:.12em;text-transform:uppercase;font-family:'Jost',sans-serif;margin-bottom:24px}
-.rel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.rel-card{background:var(--bg2);border:1px solid var(--border);padding:20px;transition:border-color .3s}
-.rel-card:hover{border-color:var(--border-h)}
-.rel-cat{font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;display:block}
-.rel-title{font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--cream);line-height:1.35}
-footer{background:var(--bg2);border-top:1px solid var(--border);padding:32px 44px;text-align:center;color:var(--muted);font-size:.78rem}
-.wa-float{position:fixed;bottom:30px;right:30px;z-index:900;width:52px;height:52px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,.32);animation:wap 2.5s ease-in-out infinite}
-@keyframes wap{0%,100%{box-shadow:0 4px 20px rgba(37,211,102,.28)}50%{box-shadow:0 4px 28px rgba(37,211,102,.5)}}
-@media(max-width:768px){.article-wrap{padding:40px 20px 80px}.rel-grid{grid-template-columns:1fr}nav{padding:16px 20px}}
-
-/* ═══ КНОПКА ЗАПИСИ В СЕРЕДИНЕ ТЕКСТА ═══
-   До конца статьи на 1000+ слов доходит меньше трети читателей.
-   Момент узнавания себя случается раньше - там и ставим. */
-.mcta{background:var(--bg2,#1c1d18);border-left:2px solid var(--gold,#D8CFBC);
-  border-radius:8px;padding:26px;margin:44px 0}
-.mcta-l{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;
-  font-weight:300;font-size:1.25rem;line-height:1.45;
-  color:var(--cream,#FFFBF4);margin:0 0 20px}
-.mcta-b{display:inline-flex;align-items:center;justify-content:center;
-  min-height:48px;padding:0 28px;background:var(--gold,#D8CFBC);
-  color:var(--bg,#11120D);border-radius:8px;text-decoration:none;
-  font-size:.9375rem;transition:opacity .2s}
-.mcta-b:hover{opacity:.88}
-.mcta-s{display:block;font-size:.8125rem;color:var(--muted,#8a8578);margin-top:12px}
-@media(max-width:640px){.mcta{margin:32px 0;padding:22px}.mcta-b{width:100%}}
-
-html,body{overflow-x:hidden;max-width:100vw}
-img{max-width:100%;height:auto}
-@media (pointer:coarse){.mcta-b,.btn-wa,.nav-back{min-height:44px}}
-@media (prefers-reduced-motion:reduce){
-  *,*::before,*::after{animation-duration:.01ms !important;
-    transition-duration:.01ms !important}}
-:focus-visible{outline:2px solid var(--gold,#D8CFBC);outline-offset:3px}
-
-
-/* ═══ АВТОРСКИЙ БЛОК (E-E-A-T) ═══ */
-.author-box{display:flex;gap:22px;align-items:flex-start;background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:28px;margin-top:56px}
-.author-box img{width:84px;height:84px;border-radius:50%;object-fit:cover;flex-shrink:0}
-.author-name{font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--cream);margin-bottom:4px}
-.author-role{font-size:.76rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
-.author-bio{font-size:.86rem;color:var(--muted);line-height:1.75;margin-bottom:14px}
-.author-creds{list-style:none;padding:0;margin:0 0 16px;font-size:.8rem;color:rgba(244,237,224,.72)}
-.author-creds li{padding-left:16px;position:relative;margin-bottom:6px;line-height:1.6}
-.author-creds li:before{content:"-";position:absolute;left:0;color:var(--gold)}
-.author-links{display:flex;gap:18px;flex-wrap:wrap;font-size:.78rem}
-.author-links a{color:var(--gold);border-bottom:1px solid transparent;transition:border-color .3s}
-.author-links a:hover{border-color:var(--gold)}
-@media(max-width:600px){.author-box{flex-direction:column;gap:16px;padding:22px}.author-box img{width:64px;height:64px}}
-
-/* ═══ БЛОК ПРЯМОГО ОТВЕТА (цитируемость в поиске и LLM) ═══ */
-.short-answer{background:var(--bg2);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:8px;padding:26px 28px;margin:0 0 40px}
-.short-answer .sa-label{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:12px}
-.short-answer p{font-size:.96rem;line-height:1.85;color:rgba(244,237,224,.9);margin:0}
-.faq-block{margin-top:56px;padding-top:40px;border-top:1px solid var(--border)}
-.faq-block > h2{font-size:1.5rem;color:var(--cream);margin-bottom:26px}
-.faq-item{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:20px}
-.faq-item:last-child{border-bottom:none;margin-bottom:0}
-.faq-q{font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:var(--cream);margin-bottom:10px;line-height:1.35}
-.faq-a{font-size:.9rem;color:rgba(244,237,224,.78);line-height:1.8;margin:0}
-@media(max-width:600px){.short-answer{padding:20px}}
-
-/* ═══ МОБИЛЬНЫЕ ТАП-ЗОНЫ (минимум 44px по высоте) ═══
-   Размер шрифта и вид не меняются - увеличивается только область нажатия. */
-@media(max-width:768px){
-  .scta{min-height:44px;align-items:center}
-  .nav-back{display:inline-flex;align-items:center;min-height:44px}
-  .hbg{min-width:44px;min-height:44px;align-items:center;justify-content:center;padding:10px}
-  .author-links a,.crumbs a,footer a,.o-card,.fcol ul a{display:inline-flex;align-items:center;min-height:44px}
-  .pname a{display:inline-flex;align-items:center;min-height:44px}
-  .cchip{min-height:44px;display:inline-flex;align-items:center}
-  .bread{min-height:44px;display:inline-flex;align-items:center}
-  .logo{display:inline-block;padding-top:11px;padding-bottom:11px}
-}
-</style>
-  <meta property="og:image" content="https://mypsychologist.kz/images/og-image.jpg">
+<meta property="og:image" content="https://mypsychologist.kz/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
@@ -216,19 +119,35 @@ img{max-width:100%;height:auto}
 }</script>
 </head>
 <body>
-<nav>
-  <a href="../index.html" class="logo">Наталья <em>Петренко</em></a>
-  <a href="/blog/" class="nav-back">← Все статьи</a>
-</nav>
+<a class="skip" href="#main">Перейти к содержанию</a>
+<header class="top" id="top">
+  <a class="brand" href="/">Наталья Петренко <span>психолог</span></a>
+  <nav aria-label="Разделы">
+    <a href="/#o-natalye">Обо мне</a>
+    <a href="/#uslugi">Услуги</a>
+    <a href="/psiholog-almaty/">Психолог в Алматы</a>
+    <a href="/blog/">Блог</a>
+    <a href="/#faq">Часто задаваемые вопросы</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mpanel">Меню</button>
+    <a class="btn sm" href="https://wa.me/77057679777" target="_blank" rel="noopener">Записаться</a>
+  </nav>
+</header>
+<div class="mpanel" id="mpanel">
+  <a href="/#o-natalye">Обо мне</a>
+  <a href="/#uslugi">Услуги</a>
+  <a href="/psiholog-almaty/">Психолог в Алматы</a>
+  <a href="/blog/">Блог</a>
+  <a href="/#faq">Часто задаваемые вопросы</a>
+</div>
 
-<article class="article-wrap" itemscope itemtype="https://schema.org/Article">
+<article class="article-wrap" id="main" itemscope itemtype="https://schema.org/Article">
   <span class="art-cat">Отношения</span>
   <h1 class="art-title" itemprop="headline">Как говорить о своих чувствах, чтобы вас услышали</h1>
   <div class="art-meta">
-    <span>✍ Наталья Петренко</span>
-    <span>📅 10 марта 2025</span>
-    <span>🔄 обновлено 28 августа 2026</span>
-    <span>⏱ 7 минут чтения</span>
+    <span>Наталья Петренко</span>
+    <span>10 марта 2025</span>
+    <span>обновлено 28 августа 2026</span>
+    <span>7 минут чтения</span>
   </div>
 
   <div class="short-answer">
@@ -301,7 +220,7 @@ img{max-width:100%;height:auto}
         <a href="/psiholog-almaty/">Приём в Алматы</a>
         <a href="/konsultaciya-psihologa/">Консультация (50 мин)</a>
         <a href="/kurs-terapii/">Курс терапии</a>
-        <a href="/#diplomas">Дипломы и сертификаты</a>
+        <a href="/#dipl">Дипломы и сертификаты</a>
         <a href="https://wa.me/77057679777" target="_blank" rel="noopener">Записаться в WhatsApp</a>
       </div>
     </div>
@@ -309,25 +228,60 @@ img{max-width:100%;height:auto}
 
   <div class="related">
     <h3>Читайте также</h3>
-    <div class="rel-grid"><a href="emocionalnyy-intellekt.html" class="rel-card">
+    <div class="rel-grid"><a class='rel-card' href='/blog/emocionalnyy-intellekt.html'>
       <span class="rel-cat">Психология</span>
       <div class="rel-title">Эмоциональный интеллект: почему он важнее, чем вы думаете</div>
-    </a><a href="gotovnost-k-novym-otnosheniyam.html" class="rel-card">
+    </a><a class='rel-card' href='/blog/gotovnost-k-novym-otnosheniyam.html'>
       <span class="rel-cat">Отношения</span>
       <div class="rel-title">Как понять, что вы готовы к новым отношениям после развода или расставания</div>
-    </a><a href="odinochestvo-i-uedinenie.html" class="rel-card">
+    </a><a class='rel-card' href='/blog/odinochestvo-i-uedinenie.html'>
       <span class="rel-cat">Отношения</span>
       <div class="rel-title">Одиночество: когда оно разрушает и когда восстанавливает</div>
     </a></div>
   </div>
 </article>
 
-<footer>
-  <p>© 2026 Наталья Петренко · Психолог · <a href="https://wa.me/77057679777" style="color:var(--gold)">WhatsApp</a> · <a href="https://instagram.com/yandalina_psychologist" style="color:var(--gold)">Instagram</a></p>
+<footer class="foot g">
+  <div class="cols2">
+    <div><p class="name">Наталья<br>Петренко</p><p class="about">Психолог с 5-летним опытом. Помогаю восстановить уверенность, проработать травмы и выстроить здоровые отношения.</p></div>
+    <div>
+      <h3>Навигация</h3>
+      <ul>
+        <li><a href="/#o-natalye">Обо мне</a></li>
+        <li><a href="/#uslugi">Услуги</a></li>
+        <li><a href="/psiholog-almaty/">Психолог в Алматы</a></li>
+        <li><a href="/#dipl">Дипломы</a></li>
+        <li><a href="/blog/">Блог</a></li>
+        <li><a href="/#faq">Часто задаваемые вопросы</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Услуги</h3>
+      <ul>
+        <li><a href="/konsultaciya-psihologa/">Консультация</a></li>
+        <li><a href="/kurs-terapii/">Курс терапии</a></li>
+        <li><a href="/gruppovaya-terapiya/">Групповая терапия</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Контакты</h3>
+      <ul>
+        <li>Алматы, ул. Желтоксан, 169</li>
+        <li><a href="tel:+77057679777">+7&nbsp;705&nbsp;767&nbsp;9777</a></li>
+        <li>Пн-Пт 10:00-20:00, Сб 10:00-16:00</li>
+        <li><a href="https://maps.google.com/?cid=13550313598852056503" target="_blank" rel="noopener">Как добраться (Google Карты)</a></li>
+        <li><a href="https://wa.me/77057679777" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="mailto:petrenkonata2022@gmail.com">Email</a></li>
+        <li><a href="https://instagram.com/yandalina_psychologist" target="_blank" rel="noopener">Instagram (@yandalina_psychologist)</a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="copy">© 2026 Наталья Петренко. Все права защищены. <a href="/privacy.html">Политика конфиденциальности</a></p>
 </footer>
 
 <a href="https://wa.me/77057679777" target="_blank" class="wa-float" title="Записаться">
   <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.116 1.522 5.849L.057 23.457l5.77-1.504A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.666-.5-5.197-1.374l-.373-.22-3.424.892.912-3.328-.242-.383A9.94 9.94 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
 </a>
+<script src="/assets/page.js" defer></script>
 </body>
 </html>
